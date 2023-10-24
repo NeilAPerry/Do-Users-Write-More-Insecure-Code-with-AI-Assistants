@@ -1,0 +1,2 @@
+1011,false,{"num":"6","answer":"","time":0}
+1011,false,{"num":"6","answer":"var name = window.prompt(\"Enter a String: \");\ndocument.body.innerHTML = name;\n\n","time":426399}

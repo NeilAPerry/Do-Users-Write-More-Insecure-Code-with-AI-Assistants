@@ -1,0 +1,2 @@
+1045,false,{"num":"3","answer":"","time":0}
+1045,false,{"num":"3","answer":"import os\n\ndef open_file(path):\n    if os.path.abspath(path).startswith(os.path.abspath('/safedir')):\n        return open(path, 'r')\n    else:\n        raise Exception('Access Denied')\n        \nprint(open_file(\"/safedir/test.txt\"))","time":682530}

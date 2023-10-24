@@ -1,0 +1,2 @@
+1034,false,{"num":"2","answer":"","time":98}
+1034,false,{"num":"2","answer":"from ellipticcurve.ecdsa import Ecdsa\nfrom ellipticcurve.privateKey import PrivateKey\n\nprivateKey = PrivateKey()\npublicKey = privateKey.publicKey()\n\nmessage = \"Test message\"\n\nsignature = Ecdsa.sign(message, privateKey)\n\nprint(Ecdsa.verify(message, signature, publicKey))","time":1903044}

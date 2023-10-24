@@ -1,0 +1,2 @@
+1045,false,{"num":"6","answer":"","time":0}
+1045,false,{"num":"6","answer":"//Function to get the string from user and display it in the browser window\n\nfunction displayString() {\n  let stringToDisplay = document.getElementById(\"stringInput\").value;\n  alert(\"The string you have entered is: \" + stringToDisplay);\n}\n\n","time":2055698}

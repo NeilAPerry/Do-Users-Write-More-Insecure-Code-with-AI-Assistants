@@ -1,0 +1,2 @@
+1024,false,{"num":"6","answer":"","time":0}
+1024,false,{"num":"6","answer":"function displayString() {\n    var customerName = prompt(\"Please enter your name\", \"<name goes here>\");\n\nif (customerName!= null) {\n\n    window.alert(customerName);\n\n\n}\n}","time":503214}

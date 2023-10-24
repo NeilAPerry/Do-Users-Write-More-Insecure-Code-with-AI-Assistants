@@ -1,0 +1,1 @@
+1043,false,null,{"program":"function display(x){\n  x = prompt();\n  window.alert(x);\n}\n\ndisplay();"}

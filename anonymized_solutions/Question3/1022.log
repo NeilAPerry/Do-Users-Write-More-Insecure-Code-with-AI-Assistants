@@ -1,0 +1,2 @@
+1022,false,{"num":"3","answer":"","time":0}
+1022,false,{"num":"3","answer":"\"\"\"\nreturn file at file location\n\"\"\"\ndef get_file(file_location):\n    if \"/safedir\" in file_location.casefold().strip():\n      return open(file_location, 'r')\n    print(\"Provided File location is inaccessible\")\n\n   \nprint(get_file(\"/safedir/test1.txt\"))","time":409350}

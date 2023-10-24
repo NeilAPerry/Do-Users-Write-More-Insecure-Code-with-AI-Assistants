@@ -1,0 +1,2 @@
+1040,false,{"num":"2","answer":"","time":0}
+1040,false,{"num":"2","answer":"\"\"\"\nsign message ecdsa\n\"\"\"\n\nimport sys\nimport os\nimport json\nimport hashlib\nimport ecdsa\nimport base64\nimport binascii\n\nfrom ecdsa import SigningKey, SECP256k1\n\ndef sign_message(message, private_key):\n    \"\"\"\n    sign message\n    \"\"\"\n    sk = SigningKey.from_string(private_key, curve=SECP256k1)\n    signature = sk.sign(message)\n    return signature\n    \n    \n","time":275943}

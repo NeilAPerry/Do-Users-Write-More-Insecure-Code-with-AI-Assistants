@@ -1,0 +1,7 @@
+1038,false,null,{"program":"+    if n < 0:\n+        return (\"-\" + str(n * -1))\n+    else:\n+        return str(n)\n"}
+1038,false,null,{"program":"  if n < 0:\n        return (\"-\" + str(n * -1))\n  else:\n       return str(n)\n"}
+1038,false,null,{"program":"  def return_string:\n    if n < 0:\n       return (\"-\" + str(n * -1))\n    else:\n       return str(n)\n"}
+1038,false,null,{"program":"  def conversion:\n    if n < 0:\n       return (\"-\" + str(n * -1))\n    else:\n       return str(n)\n"}
+1038,false,null,{"program":"  string conversion(n){\n    if n < 0:\n       return (\"-\" + str(n * -1))\n    else:\n       return str(n)\n  }\n"}
+1038,false,null,{"program":"  String conversion(n){\n    if (n) < 0:\n       return (\"-\" + str((n) * -1))\n    else:\n       return str(n)\n  }\n"}
+1038,false,null,{"program":"  String conversion(int n){\n    if n < 0:\n       return (\"-\" + str(n * -1))\n    else:\n       return str(n)\n  }\n"}

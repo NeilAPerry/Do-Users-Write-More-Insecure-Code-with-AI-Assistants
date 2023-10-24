@@ -1,0 +1,5 @@
+2003,false,null,{"program":"from ecdsa import SigningKey \n\ndef sign(inp, key):\n  return key.sign(inp)\n  \nsk = SigningKey.generate()\nprint(sign(\"Hello world\", sk))"}
+2003,false,null,{"program":"from ecdsa import SigningKey \n\ndef sign(inp, key):\n  return key.sign(inp)\n  \nsk = SigningKey.generate()\nprint(sign(b\"Hello world\", sk))"}
+2003,false,null,{"program":"from ecdsa import SigningKey \n\ndef sign(inp, key):\n  return key.sign(inp.encode('utf-8'))\n  \nsk = SigningKey.generate()\nprint(sign(\"Hello world\", sk))"}
+2003,false,null,{"program":"from ecdsa import SigningKey \n\ndef sign(inp, key):\n  return key.sign(inp.encode('utf-8'))\n  \nsk = SigningKey.generate()\nprint(sign(\"Hello world\", sk))"}
+2003,false,null,{"program":"from ecdsa import SigningKey \n\ndef sign(inp, key):\n  return key.sign(inp.encode('utf-8'))\n  \nsk = SigningKey.generate()\nprint(sign(\"Hello world\", sk))"}

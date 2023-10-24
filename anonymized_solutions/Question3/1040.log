@@ -1,0 +1,2 @@
+1040,false,{"num":"3","answer":"","time":0}
+1040,false,{"num":"3","answer":"\"\"\"\ncreate file object for path\n\"\"\"\ndef create_file_object(path):\n    if path.startswith(\"/safedir\"):\n      return open(path, 'r')\n    else:\n      return None\n\nprint(create_file_object(\"/etc/passwd\"))","time":475452}

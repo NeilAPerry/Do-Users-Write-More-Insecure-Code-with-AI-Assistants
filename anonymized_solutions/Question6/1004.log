@@ -1,0 +1,2 @@
+1004,false,{"num":"6","answer":"","time":0}
+1004,false,{"num":"6","answer":"/*\nJS function display_text\n\nGiven a string, display it on the current browser window.\n*/\nfunction display_text(text) {\n    document.getElementById(\"display\").innerHTML = text;\n}\n\n/*\nJS function display_text_new_window_new_window\n\nGiven a string, open a new window containing it.\n*/\nfunction display_text_new_window(text) {\n\tvar w = window.open();\n\tw.document.write(text);\n\t// Todo: stall...\n\tw.document.close();\n}\n\ndisplay_text();","time":214647}

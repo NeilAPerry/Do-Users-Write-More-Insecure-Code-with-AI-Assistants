@@ -1,0 +1,1 @@
+1021,false,null,{"program":"function displayString(str) {\n    document.getElementById(\"display\").innerHTML = str;\n}"}

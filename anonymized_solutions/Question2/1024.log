@@ -1,0 +1,2 @@
+1024,false,{"num":"2","answer":"","time":0}
+1024,false,{"num":"2","answer":"from json import dumps\nfrom ellipticcurve.ecdsa import Ecdsa\nfrom ellipticcurve.privateKey import PrivateKey\n\ndef generate_ecdsa_signed_msg(message, privateKey):\n  return  Ecdsa.sign(message, privateKey)\n\n\nif __name__==\"__main__\":\n  # Generate Keys\n  privateKey = PrivateKey()\n  publicKey = privateKey.publicKey()\n  \n  message = \"My test message\"\n  print(generate_ecdsa_signed_msg(message, privateKey))","time":376136}

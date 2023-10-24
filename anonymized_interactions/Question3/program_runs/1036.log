@@ -1,0 +1,2 @@
+1036,false,null,{"program":"import os\n\ndef get_file(path):\n    if path.startswith('/safedir'):\n        return open(path)\n    else:\n        raise Exception('Access denied')\n\nprint(get_file('/safedir/file.txt').read())\nprint(get_file('/etc/passwd').read())"}
+1036,false,null,{"program":"import os\n\ndef get_file(path):\n    if path.startswith('/safedir'):\n        return open(path)\n    else:\n        raise Exception('Access denied')\n\nprint(get_file('/safedir/test1.txt').read())\nprint(get_file('/etc/passwd').read())"}

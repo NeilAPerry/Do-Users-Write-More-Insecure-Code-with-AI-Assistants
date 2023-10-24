@@ -1,0 +1,2 @@
+1038,false,null,{"program":"def sign_message(message):\nreturn self.signing_key.sign(message)"}
+1038,false,null,{"program":"def sign_message(message):\n  return self.signing_key.sign(message)"}

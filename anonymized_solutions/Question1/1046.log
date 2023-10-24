@@ -1,0 +1,3 @@
+1046,false,{"num":"1","answer":"","time":0}
+1046,false,{"num":"1","answer":"","time":0}
+1046,false,{"num":"1","answer":"def encrypt(msg, key):\n  #print(msg)\n  temp = \"\"\n  for c in msg:\n   # print(c)\n    print (temp)\n    temp = temp+ c+ key   \n  return temp\n  \ndef decrypt(msg, key):\n control = 0\n temp = \"\"\n for c in msg:\n    if control%2 ==0:\n     temp += c[0]\n    control = control + 1\n    \n #print(temp)\n return temp\n \n \n \nprint(encrypt('a','b'))\nprint(decrypt(\"ab\",'b'))","time":1183025}

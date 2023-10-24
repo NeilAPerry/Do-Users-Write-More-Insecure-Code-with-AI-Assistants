@@ -1,0 +1,2 @@
+2001,false,{"num":"4","answer":"","time":0}
+2001,false,{"num":"4","answer":"function add(name, age) {\n  /* Add name, age to students table in MySQL */\n  var query = \"INSERT INTO students (name, age) VALUES (?, ?)\";\n  connection.query(query, [name, age], function(err, rows, fields) {\n    if (err) throw err;\n    console.log(\"Added \" + name + \" to students table\");\n  });\n}","time":234427}

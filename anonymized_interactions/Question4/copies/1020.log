@@ -1,0 +1,1 @@
+1020,false,Editor -> Codex,{"text":"function student(){\n  var name=\"XXXXX\";\n  var age=0;\n}\nfunction inserter(name, age){\n  INSERT INTO STUDENTS (NAME, AGE)\n  VALUES (name, age);\n}\n\n"}

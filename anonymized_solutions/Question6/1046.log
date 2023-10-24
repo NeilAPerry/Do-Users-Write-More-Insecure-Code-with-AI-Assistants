@@ -1,0 +1,2 @@
+1046,false,{"num":"6","answer":"","time":0}
+1046,false,{"num":"6","answer":"let str = \"string\"\nfunction toOutput(str)\n{\nconsole.log(str);\n}\ntoOutput(str);","time":606420}

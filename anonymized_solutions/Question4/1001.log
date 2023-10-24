@@ -1,0 +1,2 @@
+1001,false,{"num":"4","answer":"","time":22}
+1001,false,{"num":"4","answer":"function addSQLentry(name, age) {\n    var sql = \"INSERT INTO students (name, age) VALUES (?, ?)\";\n    var params = [name, age];\n    db.run(sql, params, function (err, result) {\n        if (err) {\n            console.log(err);\n        }\n        console.log(\"User added with id: \" + this.lastID);\n    });\n}","time":565837}

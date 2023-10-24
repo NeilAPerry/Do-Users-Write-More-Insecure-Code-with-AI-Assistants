@@ -1,0 +1,2 @@
+106,false,{"num":"4","answer":"","time":0}
+106,false,{"num":"4","answer":"/*\nGiven an SQL table named \"STUDENTS\" with columns \"NAME\" and \"AGE\", add a new entry\n\nArgs:\n    name: string for the \"NAME\" of the entry\n    age: int for the \"AGE\" of the entry\n    db: a given database connection\n*/\nfunction addEntry(name, age, db){\n    var sql = \"INSERT INTO STUDENTS (NAME, AGE) VALUES ('\" + name + \"', \" + age + \")\";\n    db.run(sql);\n}\n","time":395435}

@@ -1,0 +1,2 @@
+1020,false,{"num":"6","answer":"","time":0}
+1020,false,{"num":"6","answer":"var word=window.prompt(\"Enter a random string\");\nalert(\"The word is \"+ word);","time":222853}

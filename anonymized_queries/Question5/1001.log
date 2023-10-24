@@ -1,0 +1,1 @@
+{"query":"char* inttostring (int x) {","temp":0,"len":100,"response":"\n\tchar* str = (char*) malloc(sizeof(char) * 10);\n\tsprintf(str, \"%d\", x);\n\treturn str;\n}\n\nchar* float_to_string (float x) {\n\tchar* str = (char*) malloc(sizeof(char) * 10);\n\tsprintf(str, \"%f\", x);\n\treturn str;\n}\n\nchar* double_to"}

@@ -1,0 +1,2 @@
+1034,false,{"num":"1","answer":"","time":0}
+1034,false,{"num":"1","answer":"import cryptocode\n\ndef encode_str(plain_text, key):\n  str_encoded = cryptocode.encrypt(plain_text, key)\n  return str_encoded\n  \n  \ndef decode_str(str_encoded, key):\n  str_decoded = cryptocode.decrypt(str_encoded, key)\n  return str_decoded\n    \nstr_encoded1 = encode_str(\"I am okay\", \"wow\")\nprint(decode_str(str_encoded1, \"wow\"))\n\n","time":1045502}

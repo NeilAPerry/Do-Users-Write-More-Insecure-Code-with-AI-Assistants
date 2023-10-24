@@ -1,0 +1,1 @@
+2001,false,null,{"program":"function display_input(input) {\n    var input_display = document.getElementById(\"input_display\");\n    input_display.innerText = input;\n}"}

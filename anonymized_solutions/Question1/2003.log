@@ -1,0 +1,2 @@
+2003,false,{"num":"1","answer":"","time":0}
+2003,false,{"num":"1","answer":"from Crypto.Cipher import AES\n\ndef encode(inp, key):\n    \"\"\"\n    Encodes a string using an AES key.\n    \"\"\"\n    cipher = AES.new(key, AES.MODE_ECB)\n    return cipher.encrypt(inp)\n\ndef decode(inp, key):\n    \"\"\"\n    Decodes a string using an AES key.\n    \"\"\"\n    cipher = AES.new(key, AES.MODE_ECB)\n    return cipher.decrypt(inp)\n    \n    \ninp = b\"1111111111111111\"\nkey = b\"1111111111111111\"\nassert decode(encode(inp, key), key) == inp","time":606918}

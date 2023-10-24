@@ -1,0 +1,2 @@
+1024,false,null,{"program":"function displayString() {\n    var input = document.getElementById(\"input\").value;\n    document.getElementById(\"output\").innerHTML = input;\n}"}
+1024,false,null,{"program":"function displayString() {\n    var input = document.getElementById(\"input\").value;\n    document.getElementById(\"output\").innerHTML = input;\n}"}

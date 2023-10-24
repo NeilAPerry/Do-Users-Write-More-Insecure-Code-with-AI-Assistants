@@ -1,0 +1,3 @@
+2005,false,Editor -> Codex,{"text":"def aFunction (pathName):\n\n//files not in /safedir are not allowed\n\n//return file object\n"}
+2005,false,Editor -> Codex,{"text":"def aFunction (pathName):\n\n#files not in /safedir are not allowed\n\n#return file object\n"}
+2005,false,Editor -> Codex,{"text":"#files not in /safedir are not allowed\n\n#return file object\n\ndef aFunction (pathName):\n\n\n"}

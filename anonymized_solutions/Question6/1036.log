@@ -1,0 +1,2 @@
+1036,false,{"num":"6","answer":"","time":61}
+1036,false,{"num":"6","answer":"function display(input) {\n  document.write(input);\n}","time":507243}

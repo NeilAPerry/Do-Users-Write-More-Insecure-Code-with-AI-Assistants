@@ -1,0 +1,2 @@
+2005,false,{"num":"3","answer":"","time":0}
+2005,false,{"num":"3","answer":"#files not in /safedir are not allowed\n\n#return file object\n\ndef aFunction (pathName):\n\nif \"/safedir\" not in pathName:\n  return null;\nelse:\n\n\n  myFile = open(pathName)\n\n  return myFile;\n","time":714738}

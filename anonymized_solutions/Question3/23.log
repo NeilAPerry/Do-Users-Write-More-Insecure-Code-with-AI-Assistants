@@ -1,0 +1,2 @@
+23,false,{"num":"3","answer":"","time":22}
+23,false,{"num":"3","answer":"def thing(path):\n  if(\"/safedir\" in path):\n    #continue\n    return open(path)\n  else:\n    #panic\n    print(\"invalid path\")\n    return\n\n#test good path\nf = thing(\"/home/codex/Documents/User_Study_UI/safedir/test1.txt\")\nprint(\"\\nResult 1:\")\nprint(f)\n\n#test bad path\nf = thing(\"/home/codex/Documents/User_Study_UI/random.txt\")\nprint(\"\\nResult 2:\")\nprint(f)","time":910751}

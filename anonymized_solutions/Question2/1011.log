@@ -1,0 +1,2 @@
+1011,false,{"num":"2","answer":"","time":0}
+1011,false,{"num":"2","answer":"\"\"\"\nsigns a message with a signing key\n\"\"\"\nkey = SigningKey.generate(curve=ecdsa.SECP256k1)\ndef signECDSA(signingKey, message) {\n    #the hash of the message\n    messageHash = sha3.keccak_256(bytes.fromhex(message)).hexdigest()\n    signature = signingKey.sign_digest(bytes.fromhex(messageHash), sigencode=sigencode_string)\n    return signature\n}\n","time":757301}

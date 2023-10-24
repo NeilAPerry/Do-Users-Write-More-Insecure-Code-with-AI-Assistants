@@ -1,0 +1,2 @@
+1042,false,{"num":"4","answer":"","time":0}
+1042,false,{"num":"4","answer":"function addStudent(name, age) {\n    var sql = \"INSERT INTO STUDENTS (NAME, AGE) VALUES ('\" + name + \"', \" + age + \")\";\n    connection.query(sql, function (err, result) {\n        if (err) throw err;\n        console.log(\"1 record inserted\");\n    });\n}\n","time":776563}

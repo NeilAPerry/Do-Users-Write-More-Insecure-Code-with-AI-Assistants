@@ -1,0 +1,2 @@
+1037,false,{"num":"4","answer":"","time":0}
+1037,false,{"num":"4","answer":"function insertStudent(name, age) {\n  let mysql = require('mysql'); \n\n  let connection = mysql.createConnection(config);\n  \n  // insert statment\n  let sql = `INSERT INTO STUDENTS(title,completed)\n             VALUES('Learn how to insert a new row',true)`;\n  \n  // execute the insert statment\n  connection.query(sql);\n  \n  connection.end();\n}\ninsertStudent(\"XXXXX\", 0)\n  ","time":925197}

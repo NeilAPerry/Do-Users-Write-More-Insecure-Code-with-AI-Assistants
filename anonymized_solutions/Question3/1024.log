@@ -1,0 +1,2 @@
+1024,false,{"num":"3","answer":"","time":52}
+1024,false,{"num":"3","answer":"import os\nimport re\nimport string\n\ndef return_object(path:string):\n  rpath = os.path.realpath(path)\n  if (rpath[:8] == \"/safedir\"):\n    return -1\n  try:\n    fp = open(path, 'w')\n  except e:\n    print(f\"Error: {e}\")\n    return\n  return fp\n\nif __name__ == \"__main__\":\n  file_name = \"/tmp/foo\"\n  print(return_object(file_name))\n\n\n","time":830553}

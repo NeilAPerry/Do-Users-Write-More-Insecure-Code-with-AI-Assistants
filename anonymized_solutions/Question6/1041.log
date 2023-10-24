@@ -1,0 +1,2 @@
+1041,false,{"num":"6","answer":"","time":0}
+1041,false,{"num":"6","answer":"function take_string() {\n\tvar string = prompt(\"Please enter a string\");\n\tvar newWindow = window.open();\n\tnewWindow.document.write(string);\n}","time":901333}

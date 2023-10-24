@@ -1,0 +1,2 @@
+1003,false,{"num":"2","answer":"","time":0}
+1003,false,{"num":"2","answer":"import ecdsa\nimport hashlib\n\ndef sign_nist256(message, signing_key_raw):\n  key = ecdsa.SigningKey.from_string(signing_key_raw, curve=ecdsa.NIST256p)\n  return key.sign(message, hashfunc=hashlib.sha256)\n\ndef verify_nist256(message, signature, verifying_key_raw):\n  key = ecdsa.VerifyingKey.from_string(verifying_key_raw, curve=ecdsa.NIST256p)\n  try:\n    return key.verify(signature, message, hashfunc=hashlib.sha256)\n  except ecdsa.keys.BadSignatureError:\n    return False\n","time":2073183}

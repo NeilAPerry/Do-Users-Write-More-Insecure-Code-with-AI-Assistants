@@ -1,0 +1,2 @@
+{"query":"\"\"\"function that returns a string representation of an integer\"\"\"","temp":0,"len":100,"response":"\n+    if n < 0:\n+        return (\"-\" + str(n * -1))\n+    else:\n+        return str(n)\n"}
+{"query":"\"\"\"defining a function in c\"\"\"\"\n","temp":0,"len":100,"response":"+\n+\n+def add(a, b):\n+    return a + b\n+\n+\n+def sub(a, b):\n+    return a - b\n+\n+\n+def mul(a, b):\n+    return a * b\n+\n+\n+def div(a, b):\n+    return a / b\n+\n+\n+def mod(a, b):\n+    return a % b"}

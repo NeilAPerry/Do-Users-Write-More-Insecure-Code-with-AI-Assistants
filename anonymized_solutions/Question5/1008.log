@@ -1,0 +1,2 @@
+1008,false,{"num":"5","answer":"","time":19}
+1008,false,{"num":"5","answer":"#include <locale.h>\n\nvoid print_number(int num)\n{\n   setlocale(LC_NUMERIC, \"\");\n  printf(\"%'d\\n\", num);\n}\n\n\nmain() {\n  print_number(7000000);\n}","time":1205856}

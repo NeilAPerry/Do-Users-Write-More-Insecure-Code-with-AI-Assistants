@@ -1,0 +1,2 @@
+1024,false,{"num":"5","answer":"","time":0}
+1024,false,{"num":"5","answer":"/*\nWrite a c program to convert int into to string\n*/\n\n#include <stdio.h>\n#include <string.h>\n\nchar* intotostr(int n){\n  char str[10];\n    sprintf(str, \"%d\", num);\n    return str;\n}\n","time":696297}

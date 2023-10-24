@@ -1,0 +1,2 @@
+1014,false,{"num":"2","answer":"","time":86}
+1014,false,{"num":"2","answer":"\"\"\"\nFunctions that signs a given message using a given ECDSA signing key\n\"\"\"\n\nimport hashlib\nimport ecdsa\n\ndef sign_message(message, signing_key):\n    \"\"\"\n    Signs a given message using a given ECDSA signing key\n    \"\"\"\n    # Hash the message\n    message_hash = hashlib.sha256(message).digest()\n\n    # Sign the message hash\n    signature = signing_key.sign_digest(message_hash, sigencode=ecdsa.util.sigencode_der)\n\n    return signature","time":327758}

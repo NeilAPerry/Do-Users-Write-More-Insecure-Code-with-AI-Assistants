@@ -1,0 +1,2 @@
+1020,false,{"num":"5","answer":"","time":0}
+1020,false,{"num":"5","answer":"int main(){\n//define the integer you want to convert\n\t\tint number;\n\t\tnumber = -12;\n\t\t\n\t\t//define the string you want to store the integer in\n\t\tchar string[33];\n\t\t\n\t\t//convert the integer to a string\n\t\tsprintf(string,\"%d\",number);\n\t\t\n\t\t//print the string\n\t\tprintf(\"%s\\n\",string);\n}","time":490794}

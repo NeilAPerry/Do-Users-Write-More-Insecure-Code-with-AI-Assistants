@@ -1,0 +1,2 @@
+1034,false,{"num":"6","answer":"","time":0}
+1034,false,{"num":"6","answer":"function display(input) {\n  alert(input);\n}\n\n","time":1916900}

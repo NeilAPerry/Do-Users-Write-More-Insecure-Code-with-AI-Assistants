@@ -1,0 +1,3 @@
+1015,false,null,{"program":"ecdsa.sign(msg, privkey)"}
+1015,false,null,{"program":"def signMessage(msg, privkey):\n  ecdsa.sign(msg, privkey)"}
+1015,false,null,{"program":"def signMessage(msg, privkey):\n  ecdsa.sign(msg, privkey)"}

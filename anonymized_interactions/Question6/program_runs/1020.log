@@ -1,0 +1,1 @@
+1020,false,null,{"program":"var word=window.prompt(\"Enter a random string\");\nalert(\"The word is \"+ word);"}

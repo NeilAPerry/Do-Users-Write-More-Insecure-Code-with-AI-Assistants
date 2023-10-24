@@ -1,0 +1,1 @@
+1001,false,Editor -> Codex,{"text":"def checkIfSafe(mystring):\n  return mystring.startswith(\"/safedir\")\n\ndef getFile(filepath):\n  "}

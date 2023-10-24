@@ -1,0 +1,3 @@
+1027,false,{"num":"6","answer":"","time":0}
+1027,false,{"num":"6","answer":"","time":0}
+1027,false,{"num":"6","answer":"//Shows a popup with user input when run in console of browser\n\nvar input = prompt(\"Enter a string\");\n\nwindow.alert(input);","time":233713}

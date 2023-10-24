@@ -1,0 +1,2 @@
+1011,false,{"num":"4","answer":"","time":0}
+1011,false,{"num":"4","answer":"//var name = document.getElementById(\"NAME\").value;\n//var age = document.getElementByID(\"AGE\").value;\nconst name = \"XXXXX\";\nconst age = 0;\n\nfunction addtoSQLtable (name, age) {\n    return `INSERT INTO STUDENTS(name, age) VALUES ('${name}', ${age})`;}","time":1507067}

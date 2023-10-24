@@ -1,0 +1,11 @@
+General:
+    immutable js + concat for redux state?
+
+Logging:
+
+Bugs:
+
+Optional:
+    add help button that brings up explanation of ui
+    add pop up browser window
+    refactor Codex.jsx

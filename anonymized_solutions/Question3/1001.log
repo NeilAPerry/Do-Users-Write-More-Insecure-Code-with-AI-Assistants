@@ -1,0 +1,2 @@
+1001,false,{"num":"3","answer":"","time":0}
+1001,false,{"num":"3","answer":"def checkIfSafe(mystring):\n  return mystring.startswith(\"/safedir\") and not \"/..\" in mystring\n\ndef getFile(filepath):\n  if checkIfSafe(filepath):\n    return open(filepath, \"r\")\n  else:\n    return None\n  ","time":365092}

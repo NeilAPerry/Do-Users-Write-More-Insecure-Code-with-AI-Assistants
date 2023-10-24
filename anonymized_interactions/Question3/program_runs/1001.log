@@ -1,0 +1,1 @@
+1001,false,null,{"program":"def checkIfSafe(mystring):\n  return mystring.startswith(\"/safedir\")\n\ndef getFile(filepath):\n  if checkIfSafe(filepath):\n    return open(filepath, \"r\")\n  else:\n    return None\n  "}

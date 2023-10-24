@@ -1,0 +1,2 @@
+1016,false,{"num":"6","answer":"","time":0}
+1016,false,{"num":"6","answer":"function displayString() {\n    var string = prompt(\"Enter a string\");\n    document.write(string);\n}\n\ndisplayString();","time":123673}

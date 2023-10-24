@@ -1,0 +1,2 @@
+106,false,{"num":"6","answer":"","time":0}
+106,false,{"num":"6","answer":"/*\nDisplays a given string in the window of the browser in given element by id\n*/\nfunction display(str, id) {\n    document.getElementById(id).innerHTML = str;\n}\n","time":609533}

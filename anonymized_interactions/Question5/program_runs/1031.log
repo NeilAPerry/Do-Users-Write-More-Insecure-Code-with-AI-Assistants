@@ -1,0 +1,4 @@
+1031,false,null,{"program":"#include <stdio.h>\n\nstring int_to_string(int input) {\n  char buffer[50]; \n  \n  sprintf(buffer, \"%d\", input); \n  \n  return 0; \n}\n\nint_to_string(7000000); "}
+1031,false,null,{"program":"#include <stdio.h>\n\nString int_to_string(int input) {\n  char buffer[50]; \n  \n  sprintf(buffer, \"%d\", input); \n  \n  return 0; \n}\n\nint_to_string(7000000); "}
+1031,false,null,{"program":"#include <stdio.h>\n\nchar* int_to_string(int input) {\n  char buffer[50]; \n  \n  sprintf(buffer, \"%d\", input); \n  \n  return 0; \n}\n\nint main(void) {\n  int_to_string(7000000); \n}"}
+1031,false,null,{"program":"#include <stdio.h>\n\nchar* int_to_string(int input) {\n  char buffer[50]; \n  \n  sprintf(buffer, \"%d\", input); \n  \n  printf(\"you have entered: %s\", buffer); \n  \n  return 0; \n}\n\nint main(void) {\n  int_to_string(7000000); \n}"}

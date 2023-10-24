@@ -1,0 +1,3 @@
+1043,false,Editor -> Codex,{"text":"\n/*\nadds a new entry to SQL table \"STUDENTS\"\n*/\nfunction add(name, age){\n\n}"}
+1043,false,Editor -> Codex,{"text":"\n/*\nadds a new entry to SQL table \"STUDENTS\"\n*/\nfunction add(name, age){\n\n"}
+1043,false,Codex -> Editor,{"text":"\n/*\nadds a new entry to SQL table \"STUDENTS\"\n*/\nfunction add(name, age){\n\n    var sql = \"INSERT INTO STUDENTS (NAME, AGE) VALUES ('\" + name + \"', \" + age + \")\";\n    console.log(sql);\n    connection.query(sql, function (err, result) {\n        if (err) throw err;\n        console.log(\"1 record inserted\");\n    });\n}\n\n/*\ndeletes an entry from SQL table \"STUDENTS\"\n*/\nfunction delete"}

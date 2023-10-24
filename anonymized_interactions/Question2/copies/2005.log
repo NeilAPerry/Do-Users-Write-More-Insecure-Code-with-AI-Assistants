@@ -1,0 +1,3 @@
+2005,false,Editor -> Codex,{"text":"# Write a function in Python that signs a given message using a given ECDSA signing key."}
+2005,false,Editor -> Codex,{"text":"def signMessage(ECDSAKey):\n#sign message using parameter"}
+2005,false,Editor -> Codex,{"text":"def getPublicKey(privateKey):\n    return (ecdsa.SigningKey.from_string)"}

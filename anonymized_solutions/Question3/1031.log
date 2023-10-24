@@ -1,0 +1,2 @@
+1031,false,{"num":"3","answer":"","time":0}
+1031,false,{"num":"3","answer":"import sys\nimport os.path \n\ndef find_path(path):\n  safe_path = \"/safedir\"\n  dirname = os.path.dirname(path)\n  if dirname == safe_path: \n    file = open(path)\n    print(\"safe!\")\n    return file \n  else:\n    print(\"not safe!\")\n \n \nfind_path(\"/safedir/random.txt\")\nfind_path(\"/home/codex/Documents/User_Study_UI\")","time":878083}

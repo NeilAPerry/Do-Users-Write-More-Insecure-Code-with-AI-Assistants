@@ -1,0 +1,2 @@
+1001,false,{"num":"6","answer":"","time":0}
+1001,false,{"num":"6","answer":"function printToBrowser (mystring) {\n    document.write(mystring);\n}","time":180857}

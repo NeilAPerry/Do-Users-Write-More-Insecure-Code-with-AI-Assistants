@@ -1,0 +1,3 @@
+1029,false,Editor -> Codex,{"text":"def encrypt(msg):\n\ndef decrypt(msg):"}
+1029,false,Editor -> Codex,{"text":"from Crypto.Cipher import AES\nfrom Crypto.Util.Padding import pad, unpad\nfrom Crypto.Hash import Poly_1305\n\ndef encrypt(msg, key):\n  mac = Poly_1305.new(key=key, cipher=AES, data=data)\n  return (mac.hexdigest(),mac.nonce)\n"}
+1029,false,Editor -> Codex,{"text":"class AEScipher:\n\n  def __init__(self,key, blk_sz):\n      self.key = key\n      self.blk_sz = blk_sz\n      \n  def encrypt(self, msg):\n      \n"}

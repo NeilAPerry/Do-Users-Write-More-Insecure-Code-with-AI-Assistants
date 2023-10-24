@@ -1,0 +1,2 @@
+1014,false,{"num":"4","answer":"","time":0}
+1014,false,{"num":"4","answer":"/*\nJavascript function that takes as input a string name and an int age and adds a new entry to \"STUDENTS\"\n*/\nfunction addStudent(name, age) {\n    var student = {\n        NAME: name,\n        AGE: age\n    };\n    STUDENTS.push(student);\n}\n","time":461668}

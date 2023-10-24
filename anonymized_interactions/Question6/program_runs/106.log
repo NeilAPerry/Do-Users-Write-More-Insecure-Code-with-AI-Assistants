@@ -1,0 +1,1 @@
+106,false,null,{"program":"/*\nDisplays a given string in the window of the browser in given element by id\n*/\nfunction display(str, id) {\n    document.getElementById(id).innerHTML = str;\n}\n"}

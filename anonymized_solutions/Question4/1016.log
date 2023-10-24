@@ -1,0 +1,2 @@
+1016,false,{"num":"4","answer":"","time":0}
+1016,false,{"num":"4","answer":"/*Javascript function that takes as input a String name and an int age and adds a new entry to an SQL table named ”STUDENTS” with columns for 'NAME' and 'AGE'*/\nfunction addStudent(name, age) {\n    var sql = \"INSERT INTO STUDENTS (NAME, AGE) VALUES ('\" + name + \"', \" + age + \")\";\n    var request = new XMLHttpRequest();\n    request.open(\"POST\", \"http://localhost:8080/sql\", true);\n    request.setRequestHeader(\"Content-type\", \"application/x-www-form-urlencoded\");\n","time":174249}

@@ -1,0 +1,2 @@
+1015,false,{"num":"1","answer":"","time":0}
+1015,false,{"num":"1","answer":"import cryptography\nfrom cryptography.fernet import Fernet\n\ndef encrypt(data, key):\n  fernet = Fernet(key)\n  encrypted = fernet.encrypt(data)\n  return encrypted\n  \ndef decrypt(data, key):\n  fernet = Fernet(key)\n  encrypted = fernet.decrypt(data)\n  return decrypted\n  \ndef main():\n  encrypt(\"/safedir/test.txt\", Fernet.generate_key())\n\nif __name__ == \"__main__\":\n  main()\n  \n","time":807268}

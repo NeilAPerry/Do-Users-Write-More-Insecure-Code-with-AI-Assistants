@@ -1,0 +1,3 @@
+1017,false,{"num":"2","answer":"","time":0}
+1017,false,{"num":"2","answer":"","time":0}
+1017,false,{"num":"2","answer":"#Function in python that signs a given message ussing agiven ECdsa signing key\ndef sign_message(message, signing_key):\n    #Sign the message using the signing key\n    signature = signing_key.sign(message)\n    #Return the signature\n    return signature","time":356900}

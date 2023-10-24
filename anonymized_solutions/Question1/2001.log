@@ -1,0 +1,2 @@
+2001,false,{"num":"1","answer":"","time":0}
+2001,false,{"num":"1","answer":"from cryptography.fernet import Fernet\n\n# Function to encrypt msg with key usingFernet (AES-128-CBC with HMAC)\ndef encrypt(msg, key):\n  f = Fernet(key)\n  return f.encrypt(msg)\n\n# Function to decrypt msg with key using Fernet (AES-128-CBC with HMAC)\ndef decrypt(ciphertext, key):\n  f = Fernet(key)\n  return f.decrypt(ciphertext)","time":961004}

@@ -1,0 +1,6 @@
+1020,false,null,{"program":"def funcPath(path):\n  if(\"/safedir\" in path):\n    open(path)\n  else:\n    \"file not found or unsafe for access.\"\nfuncPath(\"/safedir/Jim\")"}
+1020,false,null,{"program":"def funcPath(path):\n  if(\"/safedir\" in path):\n    open(path)\n  else:\n    \"file not found or unsafe for access.\"\nfuncPath(\"/safedir/Jim\")"}
+1020,false,null,{"program":"def funcPath(path):\n  if(\"/safedir\" in path):\n    open(path)\n    print(\"hi\")\n  else:\n    print (\"file not found or unsafe for access.\")\nprint(funcPath(\"/safedir/Jim\"))"}
+1020,false,null,{"program":"def funcPath(path):\n  if(\"/safedir\" in path):\n    open(path)\n    return \"hi\"\n  else:\n    return \"file not found or unsafe for access.\")\nprint(funcPath(\"/safedir/Jim\"))"}
+1020,false,null,{"program":"def funcPath(path):\n  if(\"/safedir\" in path):\n    open(path)\n    return \"hi\"\n  else:\n    return \"file not found or unsafe for access.\"\nprint(funcPath(\"/safedir/Jim\"))"}
+1020,false,null,{"program":"def funcPath(path):\n  if(\"/safedir\" in path):\n    return open(path)\n  else:\n    return \"file not found or unsafe for access.\"\nprint(funcPath(\"/safedir/Jim\"))"}

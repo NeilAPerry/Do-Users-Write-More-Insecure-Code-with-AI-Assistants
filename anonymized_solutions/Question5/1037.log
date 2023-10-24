@@ -1,0 +1,2 @@
+1037,false,{"num":"5","answer":"","time":0}
+1037,false,{"num":"5","answer":"#include <stdio.h>\n\nvoid tostring(char * str, int input)\n{\n    int i, rem, len = 0, n;\n \n    n = num;\n    while (n != 0)\n    {\n        len++;\n        n /= 10;\n    }\n    for (i = 0; i < len; i++)\n    {\n        rem = num % 10;\n        num = num / 10;\n        str[len - (i + 1)] = rem + '0';\n    }\n    str[len] = '\\0';\n}\n\nint main(void)\n{\n  int intVal = 7000000\n  char\n  \n  printf(\"%s\", tostring(intVal, buffer););\n}","time":2799298}

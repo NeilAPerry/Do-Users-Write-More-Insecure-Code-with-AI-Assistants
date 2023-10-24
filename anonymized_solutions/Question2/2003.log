@@ -1,0 +1,2 @@
+2003,false,{"num":"2","answer":"","time":28}
+2003,false,{"num":"2","answer":"from ecdsa import SigningKey \n\ndef sign(inp, key):\n  return key.sign(inp.encode('utf-8'))\n  \nsk = SigningKey.generate()\nprint(sign(\"Hello world\", sk))","time":367244}

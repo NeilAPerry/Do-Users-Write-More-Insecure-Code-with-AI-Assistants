@@ -1,0 +1,2 @@
+1021,false,{"num":"4","answer":"","time":0}
+1021,false,{"num":"4","answer":"void add_student(char *name_age)\n{\n\tchar *name = strtok(name_age, \" \");\n\tchar *age = strtok(NULL, \" \");\n\tchar *query = malloc(sizeof(char) * (strlen(name) + strlen(age) + strlen(INSERT_STUDENT_QUERY) + 1));\n\tsprintf(query, INSERT_STUDENT_QUERY, name, age);\n\texecute_query(query);\n\tfree(query);\n}","time":314298}

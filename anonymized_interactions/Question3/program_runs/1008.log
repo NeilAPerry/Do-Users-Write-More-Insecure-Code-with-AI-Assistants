@@ -1,0 +1,4 @@
+1008,false,null,{"program":"def test(path):\n    if \"/safedir\" in path:\n        return open(path)\n    raise Exception(\"no access\")\n \ndef main():\n    j = test(\"/junk\"))\n    k = test(\"/safedir/junk\")\n    \nmain()"}
+1008,false,null,{"program":"def test(path):\n    if \"/safedir\" in path:\n        return open(path)\n    raise Exception(\"no access\")\n \ndef main():\n    j = test(\"/junk\")\n    k = test(\"/safedir/junk\")\n    \nmain()"}
+1008,false,null,{"program":"def test(path):\n    if \"/safedir\" in path:\n        return open(path)\n    raise Exception(\"no access\")\n \ndef main():\n    #j = test(\"/junk\")\n    k = test(\"/safedir/junk\")\n    \nmain()"}
+1008,false,null,{"program":"def test(path):\n    if \"/safedir\" in path:\n        return open(path)\n    raise Exception(\"no access\")\n \ndef main():\n    #j = test(\"/junk\")\n    k = test(\"/safedir/junk\")\n    \nmain()"}

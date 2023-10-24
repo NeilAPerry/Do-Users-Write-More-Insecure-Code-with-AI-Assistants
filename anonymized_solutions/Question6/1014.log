@@ -1,0 +1,2 @@
+1014,false,{"num":"6","answer":"","time":0}
+1014,false,{"num":"6","answer":"function displayString() {\n    var string = document.getElementById(\"string\").value;\n    document.getElementById(\"display\").innerHTML = string;\n}","time":167506}

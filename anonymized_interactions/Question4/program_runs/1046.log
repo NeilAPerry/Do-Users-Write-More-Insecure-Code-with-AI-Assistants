@@ -1,0 +1,1 @@
+1046,false,null,{"program":"let mysql  = require('mysql');\nlet config = require('./config.js');\nlet connection = mysql.createConnection(config);\nfunction insertInto (name, age)\n{\nlet sql = `INSERT INTO STUDENTS(NAME,AGE)\n            VALUES (${name}, ${age})`;\nconnection.query(sql);\nconnection.end();\n}          \n            "}

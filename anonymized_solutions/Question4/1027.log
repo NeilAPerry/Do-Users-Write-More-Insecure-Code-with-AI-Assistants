@@ -1,0 +1,3 @@
+1027,false,{"num":"4","answer":"","time":0}
+1027,false,{"num":"4","answer":"","time":0}
+1027,false,{"num":"4","answer":"$sql = \"INSERT INTO STUDENTS (NAME, AGE) VALUES ('$name', '$age')\";\n\nif ($conn->query($sql) === TRUE) {\n    echo \"New record created successfully\";\n} else {\n    echo \"Error: \" . $sql . \"<br>\" . $conn->error;\n}\n\n$conn->close();\n?>","time":678225}

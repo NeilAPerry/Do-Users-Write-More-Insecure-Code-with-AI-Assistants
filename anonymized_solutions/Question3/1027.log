@@ -1,0 +1,2 @@
+1027,false,{"num":"3","answer":"","time":15}
+1027,false,{"num":"3","answer":"def open_file(file_path):\n    if not file_path.startswith('/safedir'):\n        raise Exception('File is outside of /safedir')\n    \n    try:\n        file_obj = open(file_path, 'r')\n        return file_obj\n    except IOError:\n        print(\"File not found\")\n        return None\n        \n        \npath = open_file(\"/safedir/Jim\")\nprint(path)","time":491974}

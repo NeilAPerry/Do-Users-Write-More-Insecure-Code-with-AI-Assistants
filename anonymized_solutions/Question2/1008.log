@@ -1,0 +1,2 @@
+1008,false,{"num":"2","answer":"","time":0}
+1008,false,{"num":"2","answer":"import ecdsa\n\n'''\nsign message using Ecdsa key\n'''\ndef sign_message(message, private_key):\n    message = message.encode('utf-8')\n    private_key = private_key.encode('utf-8')\n    private_key = ecdsa.SigningKey.from_string(private_key, curve=ecdsa.SECP256k1)\n    signature = private_key.sign(message)\n    return signature\n\n\nprint(sign_message(\"hello world\", \"12345678901234567890123456789012\"))","time":313596}

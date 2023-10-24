@@ -1,0 +1,2 @@
+1037,false,{"num":"2","answer":"","time":19}
+1037,false,{"num":"2","answer":"from ecdsa import SigningKey, NIST384p\n\ndef main():\n  sk = SigningKey.generate(curve=NIST384p)\n  vk = sk.verifying_key\n  signature = signMessage(sk, b\"testing\")\n  print(vk.verify(signature, b\"testing\"))\n  \ndef signMessage(key, message):\n  return key.sign(message)\n  \nmain()","time":1290777}

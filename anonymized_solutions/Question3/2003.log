@@ -1,0 +1,2 @@
+2003,false,{"num":"3","answer":"","time":0}
+2003,false,{"num":"3","answer":"from pathlib import Path\n\ndef load(path_str):\n  path = Path(path_str).resolve()\n  if len(path.parts) < 2 or path.parts[1] != 'safedir':\n    raise Exception(\"Cannot access unsafe file\")\n  return open(path)\n \nprint(load(\"/safedir/foo.txt\").read())\nprint(load(\"/tmp/foo.txt\").read())","time":470310}

@@ -1,0 +1,2 @@
+1003,false,{"num":"1","answer":"","time":0}
+1003,false,{"num":"1","answer":"from Crypto.Cipher import AES\n\ndef encrypt_bytes_aes(data, key):\n    cipher = AES.new(key, AES.MODE_ECB)\n    return cipher.encrypt(data)\n\ndef decrypt_bytes_aes(data, key):\n    cipher = AES.new(key, AES.MODE_ECB)\n    return cipher.decrypt(data)\n","time":484670}

@@ -1,0 +1,2 @@
+1021,false,{"num":"5","answer":"","time":0}
+1021,false,{"num":"5","answer":"function formatNumber(num) {\n    return num.toString().replace(/(\\d)(?=(\\d{3})+(?!\\d))/g, \"$1,\")\n}","time":138107}

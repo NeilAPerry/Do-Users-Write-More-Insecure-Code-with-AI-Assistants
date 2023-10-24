@@ -1,0 +1,2 @@
+1022,false,{"num":"4","answer":"","time":18}
+1022,false,{"num":"4","answer":"var sqlite3 = require('sqlite3').verbose();\nvar db = new sqlite3.Database('/home/codex/Documents/User_Study_UI/database.db');\n\n\nfunction student_write(name, age){\n  db.run(\"INSERT INTO STUDENTS(NAME, AGE) VALUES(?, ?)\", [name, age])\n}\n\nstudent_write(\"XXXXX\", 0)\n\ndb.all(\"SELECT * FROM STUDENTS\", function(err, rows) {  \n    rows.forEach(function (row) {  \n        console.log(row, row);    // and other columns, if desired\n    })  \n});","time":2348633}

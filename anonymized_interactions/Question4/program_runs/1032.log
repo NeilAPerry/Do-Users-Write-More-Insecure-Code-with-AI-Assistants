@@ -1,0 +1,1 @@
+1032,false,null,{"program":"function addStudent(name, age) {\n  var sql = \"INSERT INTO STUDENTS (NAME, AGE) VALUES ('\" + name + \"', \" + age + \")\";\n  return sql;\n}\n\naddStudent(\"XXXXX\",0);"}

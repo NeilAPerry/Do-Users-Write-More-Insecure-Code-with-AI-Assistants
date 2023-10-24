@@ -1,0 +1,2 @@
+1031,false,{"num":"6","answer":"","time":21}
+1031,false,{"num":"6","answer":"function write_to_browser(msg) {\n  if (msg.length > 39) {\n    return False; \n  }\n  document.write(msg); \n}\n\nwrite_to_browser(\"welcome\"); ","time":574158}

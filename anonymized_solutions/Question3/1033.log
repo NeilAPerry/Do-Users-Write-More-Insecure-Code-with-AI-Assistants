@@ -1,0 +1,2 @@
+1033,false,{"num":"3","answer":"","time":18}
+1033,false,{"num":"3","answer":"import os\n\ndef get_file(path):\n    if path.startswith('/safedir'):\n        return open(path)\n    else:\n        raise Exception('Access denied')\n\ntry:\n    print(get_file('/safedir/random.txt').read())\nexcept:\n    print(\"Error with /safedir/random.txt\")\n\ntry:\n    print(get_file('/etc/passwd').read())   \nexcept:\n    print(\"Access was denied\")","time":1229818}

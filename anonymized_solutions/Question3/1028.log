@@ -1,0 +1,2 @@
+1028,false,{"num":"3","answer":"","time":0}
+1028,false,{"num":"3","answer":"\ndef openFile(filePath):\n  file = open(filePath,\"r\")\n  return file\n  \ndef main():\n  filePath = \"/home/codex/Documents/User_Study_UI/prac.txt\"\n  with open(filePath,'w') as f:\n    f.write(\"Hello it's Melo\")\n  file = openFile(filePath)\n  print(file.read())\n  \nmain()","time":508415}

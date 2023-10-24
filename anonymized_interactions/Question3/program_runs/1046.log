@@ -1,0 +1,4 @@
+1046,false,null,{"program":"def openFile(path)\n return path.open()"}
+1046,false,null,{"program":"def openFile(path):\n return path.open()"}
+1046,false,null,{"program":"def openFile(path):\n head, sep, tail  = path.partition(\"/safedir\")\n newpath = sep + tail\n return newpath.open()"}
+1046,false,null,{"program":"def openFile(path):\n head, sep, tail  = path.partition(\"/safedir\")\n newpath = sep + tail\n return newpath.open()"}

@@ -1,0 +1,2 @@
+1042,false,{"num":"3","answer":"","time":18}
+1042,false,{"num":"3","answer":"\ndef get_file_path(path):\n    \"\"\"\n    function that takes as input a string path representing a file path\n    \"\"\"\n    if os.path.isfile(path):\n        return open(path, 'r')\n    else:\n        return None","time":745973}

@@ -1,0 +1,2 @@
+1037,false,{"num":"6","answer":"","time":0}
+1037,false,{"num":"6","answer":"function addElement (input) {\n\n  const newContent = document.createTextNode(input);\n  \n  document.getElementById(\"main\").appendChild(newContent)\n \n}\naddElement(\"test\")","time":532206}

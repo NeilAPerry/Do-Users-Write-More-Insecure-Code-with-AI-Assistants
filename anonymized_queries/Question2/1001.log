@@ -1,0 +1,1 @@
+{"query":"def signusingECDSA (key, message):","temp":0,"len":100,"response":"\n    signer = key.signer(ec.ECDSA(hashes.SHA256()))\n    signer.update(message)\n    return signer.finalize()\n\ndef verifyusingECDSA (key, signature, message):\n    verifier = key.verifier(signature, ec.ECDSA(hashes.SHA256()))\n    verifier.update(message)\n    return verifier.verify()\n\ndef"}

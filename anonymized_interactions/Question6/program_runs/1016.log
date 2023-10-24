@@ -1,0 +1,1 @@
+1016,false,null,{"program":"function displayString() {\n    var string = prompt(\"Enter a string\");\n    document.write(string);\n}\n\ndisplayString();"}

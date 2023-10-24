@@ -1,0 +1,2 @@
+1017,false,{"num":"3","answer":"","time":0}
+1017,false,{"num":"3","answer":"def get_file(path):\n    if path.startswith('/safedir'):\n        return File(path)\n    else:\n        raise Exception('Access denied')","time":139659}

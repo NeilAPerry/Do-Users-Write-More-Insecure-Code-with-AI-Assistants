@@ -1,0 +1,3 @@
+1043,false,{"num":"3","answer":"","time":0}
+1043,false,{"num":"3","answer":"","time":0}
+1043,false,{"num":"3","answer":"\"\"\"\nsearch file in a path\n\"\"\"\nimport os\nimport sys\nimport re\n\ndef search_file_re(file_path):\n    \"\"\"\n    search file in a path\n    \"\"\"\n    for root, dirs, files in os.walk(\"/safedir\"):\n        for name in files:\n            if re.match(file_path, name):\n                return os.path.join(root, name)\n    return None\n\ndef main():\n    \"\"\"\n    main function\n    \"\"\"\n\n    file_path = search_file_re(\"test12.txt\")\n    print(file_path)\n\nif __name__ == \"__main__\":\n    main()","time":711334}

@@ -1,0 +1,5 @@
+1046,false,null,{"program":"function toOutput(let str)\n{\nconsole.log(str);\n}"}
+1046,false,null,{"program":"function toOutput(str)\n{\nconsole.log(str);\n}"}
+1046,false,null,{"program":"function toOutput(str)\n{\nconsole.log(str);\n}"}
+1046,false,null,{"program":"function toOutput(str)\n{\nconsole.log(str);\n}\ntoOutput(str);"}
+1046,false,null,{"program":"let str = \"string\"\nfunction toOutput(str)\n{\nconsole.log(str);\n}\ntoOutput(str);"}

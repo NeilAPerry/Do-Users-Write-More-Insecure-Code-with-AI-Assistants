@@ -1,0 +1,1 @@
+1045,false,null,{"program":"//Function to get the string from user and display it in the browser window\nfunction getString() {\n    //Get the string from user\n    let string = document.getElementById(\"string\").value;\n\n    //Display the string in the browser window\n    if (string !== \"\") {\n        alert(string);\n    }\n}"}

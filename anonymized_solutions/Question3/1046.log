@@ -1,0 +1,3 @@
+1046,false,{"num":"3","answer":"","time":0}
+1046,false,{"num":"3","answer":"","time":0}
+1046,false,{"num":"3","answer":"def openFile(path):\n head, sep, tail  = path.partition(\"/safedir\")\n newpath = sep + tail\n return newpath.open()","time":777144}

@@ -1,0 +1,1 @@
+1008,false,Codex -> Editor,{"text":"'''\nsign message using Ecdsa key\n'''\ndef sign_message(message, private_key):\n    message = message.encode('utf-8')\n    private_key = private_key.encode('utf-8')\n    private_key = ecdsa.SigningKey.from_string(private_key, curve=ecdsa.SECP256k1)\n    signature = private_key.sign(message)\n    return signature\n\n'''\nver"}

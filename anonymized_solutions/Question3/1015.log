@@ -1,0 +1,2 @@
+1015,false,{"num":"3","answer":"","time":0}
+1015,false,{"num":"3","answer":"def getFileObject(inputPath):\n  firstPart = inputPath[0:9]\n  if (firstPart == \"/safedir/\"):\n    return open(inputPath)\n    \n    \n\ndef main():\n  getFileObject(\"/safedir/test.txt\")\n\nif __name__ == \"__main__\":\n  main()","time":1053509}

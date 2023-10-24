@@ -1,0 +1,2 @@
+2001,false,Editor -> Codex,{"text":"// Add name, age to students"}
+2001,false,Codex -> Editor,{"text":"function add(name, age) {\n  /* Add name, age to students table in MySQL */\n  var query = \"INSERT INTO students (name, age) VALUES ('\" + name + \"', \" + age + \")\";\n  connection.query(query, function(err, rows, fields) {\n    if (err) throw err;\n    console.log(\"Added \" + name + \" to students table\");\n  });\n}\n\nfunction remove(name) {\n  /* Remove name from students table in MySQL */\n  var"}

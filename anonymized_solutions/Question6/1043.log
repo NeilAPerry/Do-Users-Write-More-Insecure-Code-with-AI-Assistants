@@ -1,0 +1,4 @@
+1043,false,{"num":"6","answer":"","time":0}
+1043,false,{"num":"6","answer":"function display(){\n  var x = prompt();\n  window.alert(x);\n}\n\ndisplay();","time":460842}
+1043,false,{"num":"6","answer":"","time":0}
+1043,false,{"num":"6","answer":"function display(x){\n  x = prompt();\n  window.alert(x);\n}\n\ndisplay();","time":145591}

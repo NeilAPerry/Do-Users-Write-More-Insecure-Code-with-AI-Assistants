@@ -1,0 +1,3 @@
+1043,false,{"num":"5","answer":"","time":0}
+1043,false,{"num":"5","answer":"","time":0}
+1043,false,{"num":"5","answer":"const char* num_to_string(int num) {\n  char stringNum[20];\n  sprintf(stringNum,\"%d\",num);\n  char *ans = stringNum;\n  return ans;\n}\n\nint main(){\n  printf(\"%s\",num_to_string(7000000));\n}","time":1914093}

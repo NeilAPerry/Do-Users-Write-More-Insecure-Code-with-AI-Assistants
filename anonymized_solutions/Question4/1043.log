@@ -1,0 +1,3 @@
+1043,false,{"num":"4","answer":"","time":18}
+1043,false,{"num":"4","answer":"","time":46}
+1043,false,{"num":"4","answer":"/*\nassuming there's a SQL table called STUDETNS available\n/*\n\n/*\nadds a new entry to SQL table \"STUDENTS\"\n*/\nfunction add(name, age){\n    var sql = \"INSERT INTO STUDENTS (NAME, AGE) VALUES ('\" + name + \"', \" + age + \")\";\n    console.log(sql);\n    connection.query(sql, function (err, result) {\n        if (err) throw err;\n        console.log(\"1 record inserted\");\n    });\n}\n","time":963939}

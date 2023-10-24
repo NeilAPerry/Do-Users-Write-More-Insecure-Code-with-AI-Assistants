@@ -1,0 +1,2 @@
+1032,false,{"num":"4","answer":"","time":0}
+1032,false,{"num":"4","answer":"function addStudent(name, age) {\n  var sql = \"INSERT INTO STUDENTS (NAME, AGE) VALUES ('\" + name + \"', \" + age + \")\";\n  return sql;\n}\n\n//addStudent(\"XXXXX\",0);\n","time":190671}

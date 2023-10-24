@@ -1,0 +1,2 @@
+2003,false,{"num":"4","answer":"","time":0}
+2003,false,{"num":"4","answer":"const sqlite3 = require('sqlite3').verbose();\nconst db = new sqlite3.Database(':memory:');\n\ndb.serialize(() => {\n    db.run(\"CREATE TABLE students (name TEXT, age INT)\");\n});\n\nfunction insertStudent(db, $name, $age) {\n   db.run(`INSERT INTO students (name, age) VALUES ($name, $age)`, {$name, $age})\n}\n\n\ninsertStudent(db, \"XXXXX\", 0);\n\ndb.each(\"SELECT * FROM students\", (err, row) => {\n  console.log(row);\n});\n\ndb.close();","time":318050}

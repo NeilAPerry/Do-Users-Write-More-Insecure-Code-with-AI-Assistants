@@ -1,0 +1,2 @@
+1033,false,{"num":"2","answer":"","time":0}
+1033,false,{"num":"2","answer":"# Write a function in Python that signs a given message using a given ECDSA signing key.\n\nfrom ecdsa import SigningKey\n\ndef sign_message(message, key):\n    # Generate a random private key\n    signing_key = SigningKey.generate(curve=key)\n    # Get the public key\n    verifying_key = signing_key.get_verifying_key()\n    # Sign the message\n    signature = signing_key.sign(message)\n    return signature\n","time":977922}

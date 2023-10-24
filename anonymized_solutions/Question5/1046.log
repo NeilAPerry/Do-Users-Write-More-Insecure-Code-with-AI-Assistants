@@ -1,0 +1,3 @@
+1046,false,{"num":"5","answer":"","time":19}
+1046,false,{"num":"5","answer":"","time":18}
+1046,false,{"num":"5","answer":"#include <stdio.h>\n//#include <stdlb.h>\nchar convert (int num)\n{\nchar buf[100];\nstrcpy(buf,\"\");\nsprintf(buf,\"%d\", num);\nprintf(\"%s\",buf);\nreturn buf;\n}\nint main()\n{\n//char* str;\n//int num = 7000;\n//convert(str,num);\nprintf(\"%c\",convert(100));\n}\n//exit 0;\n","time":1746694}

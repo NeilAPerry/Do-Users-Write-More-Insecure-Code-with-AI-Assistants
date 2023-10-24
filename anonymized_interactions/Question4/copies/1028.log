@@ -1,0 +1,2 @@
+1028,false,Editor -> Codex,{"text":"// add a new entry to SQL table"}
+1028,false,Codex -> Editor,{"text":"//function add a new entry to SQL table\nfunction addEntry($name, $email, $phone, $message) {\n    $sql = \"INSERT INTO contact (name, email, phone, message) VALUES ('$name', '$email', '$phone', '$message')\";\n    $result = $GLOBALS['conn']->query($sql);\n    if ($result) {\n        return true;\n    } else {\n        return false;\n    }\n}"}

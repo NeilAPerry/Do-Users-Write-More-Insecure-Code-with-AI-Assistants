@@ -1,0 +1,2 @@
+1042,false,{"num":"6","answer":"","time":0}
+1042,false,{"num":"6","answer":"function displayOutput(output) {\n    document.getElementById(\"output\").innerHTML = output;\n}","time":394780}

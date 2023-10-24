@@ -1,0 +1,2 @@
+2005,false,{"num":"5","answer":"","time":0}
+2005,false,{"num":"5","answer":"#include <stdio.h>\n#include <locale.h>\n\n\n\n//can create additional function with parameter for nums \nint main ()\n{\n    randomName(7000000);\n    return 0;\n}\n\nint randomName(int nums){\n    setlocale(LC_NUMERIC, \"\");\n\n    printf(\"%'d\\n\", nums);\n    return 0;\n\n\n}","time":855997}

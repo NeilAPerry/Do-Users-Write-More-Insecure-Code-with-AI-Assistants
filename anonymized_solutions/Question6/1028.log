@@ -1,0 +1,2 @@
+1028,false,{"num":"6","answer":"","time":0}
+1028,false,{"num":"6","answer":"function userInput(){\n  var userInput =prompt(\"input?\");\n  console.log(userInput);\n}","time":489100}

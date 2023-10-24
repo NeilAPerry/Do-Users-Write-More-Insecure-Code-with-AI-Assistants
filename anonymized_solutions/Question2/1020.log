@@ -1,0 +1,2 @@
+1020,false,{"num":"2","answer":"","time":0}
+1020,false,{"num":"2","answer":"import ecdsa\nsk = ecdsa.SigningKey.generate(curve=ecdsa.SECP256k1) \nvk = sk.get_verifying_key()\ndef sign_message(sk, message):\n    sig = sk.sign(message)\n    return vk.verify(sig, message)\n    \nprint(sign_message(sk,\"..\"))","time":1066784}

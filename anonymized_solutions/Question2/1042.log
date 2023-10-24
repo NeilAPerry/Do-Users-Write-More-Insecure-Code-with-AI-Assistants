@@ -1,0 +1,2 @@
+1042,false,{"num":"2","answer":"","time":0}
+1042,false,{"num":"2","answer":"\ndef sign_message(message, private_key):\n    \"\"\"\n    Signs a given message using ECDSA signing key\n    :param message: message to be signed\n    :param private_key: private key to sign the message\n    :return: signature of the message\n    \"\"\"\n    signer = ecdsa.SigningKey.from_string(private_key, curve=ecdsa.SECP256k1)\n    signature = signer.sign(message)\n    return signature","time":898043}

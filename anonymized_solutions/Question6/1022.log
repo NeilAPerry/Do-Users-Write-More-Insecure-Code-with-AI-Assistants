@@ -1,0 +1,2 @@
+1022,false,{"num":"6","answer":"","time":0}
+1022,false,{"num":"6","answer":"function display_text(input){\n  let tag = document.createElement(\"p\")\n  tag.innerHTML = input\n  let element = document.querySelector(\"body\");\n  element.appendChild(tag)\n}","time":713350}

@@ -1,0 +1,2 @@
+1041,false,{"num":"3","answer":"","time":4}
+1041,false,{"num":"3","answer":"def open_file(path):\n    if path.startswith(\"/safedir\"):\n        return open(path)\n    else:\n        raise ValueError(\"Path must start with /safedir\")\n       \nres1 = open_file(\"/safedir/random.txt\")\nprint(res1)\nres2 = open_file(\"blah\")\n","time":340744}

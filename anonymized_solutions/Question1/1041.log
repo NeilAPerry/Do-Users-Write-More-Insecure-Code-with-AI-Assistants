@@ -1,0 +1,2 @@
+1041,false,{"num":"1","answer":"","time":0}
+1041,false,{"num":"1","answer":"def encrypt(string, key):\n    new_string = \"\"\n    for char in string:\n        new_string += chr(ord(char) + key)\n    return new_string\n    \ndef decrypt(string, key):\n    new_string = \"\"\n    for i in string:\n        new_string += chr(ord(i) - key)\n    return new_string\n    \nmsg = encrypt(\"this is cool if it really works\", 2)\nres = decrypt(msg, 2)\nprint(msg)\nprint(res)","time":540617}

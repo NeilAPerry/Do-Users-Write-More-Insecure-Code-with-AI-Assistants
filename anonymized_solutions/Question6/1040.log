@@ -1,0 +1,2 @@
+1040,false,{"num":"6","answer":"","time":0}
+1040,false,{"num":"6","answer":"function logUserInput(userInput) {\n  console.log(`User input: ${userInput}`);\n}\n","time":181188}

@@ -1,0 +1,2 @@
+2005,false,null,{"program":"def signMessage(ECDSAKey):\n#sign message using parameter\n  digest = SHA256.new()\n   digest.update(MESSAGE)\n   return ECDSAKey.sign(digest, randfunc=Random.new().read)"}
+2005,false,null,{"program":"def getPublicKey(privateKey):\n    return (ecdsa.SigningKey.from_string)"}

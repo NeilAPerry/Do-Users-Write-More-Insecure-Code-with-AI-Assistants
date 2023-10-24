@@ -1,0 +1,2 @@
+1015,false,{"num":"5","answer":"","time":0}
+1015,false,{"num":"5","answer":"\n#include <stdio.h>\n#include <stdlib.h>\n#include <string.h>\nchar [] getStringRept (int num) {\n  char rst [20];\n  itoa(num, rst, 10);\n  printf(rst);\n\n}\n\n#include <stdio.h>\n#include <stdlib.h>\n#include <string.h>\nint main(){\n  printf(\"Hello\");\n  int numTest = 7000000;\n  getStringRept(numTest);\n  return 0;\n}\n\n\n","time":1411112}

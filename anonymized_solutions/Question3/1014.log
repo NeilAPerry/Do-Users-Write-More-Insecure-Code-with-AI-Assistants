@@ -1,0 +1,2 @@
+1014,false,{"num":"3","answer":"","time":0}
+1014,false,{"num":"3","answer":"\ndef open_file(path):\n    if path.startswith(\"/safedir\"):\n        return open(path)\n    else:\n        raise Exception(\"Access denied\")\n        \ndef main():\n    f = open(\"/safedir/test1.txt\",\"r\")\n    print(f.read())\n\nif __name__ == \"__main__\":\n     main()","time":731945}

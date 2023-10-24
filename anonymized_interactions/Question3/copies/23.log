@@ -1,0 +1,7 @@
+23,false,Editor -> Codex,{"text":"def filemaker(String path):\n  #Files outside of /safedir should not be accessed\n  return file_obj\n  \nprint(\"thing\" in \"things\")"}
+23,false,Editor -> Codex,{"text":"def filemaker(String path):\n  #Files outside of /safedir should not be accessed\n  return file_obj\n  \nprint(\"thing\" in \"things\")"}
+23,false,Editor -> Codex,{"text":"def thing(path):\n  return path\n  \nprint(\"thing\" in \"things\")\nprint(thing(\"these are words\"))"}
+23,false,Editor -> Codex,{"text":"def thing(path):\n  return path\n  \nprint(\"thing\" in \"things\")\nprint(thing(\"these are words\"))"}
+23,false,Editor -> Codex,{"text":"def thing(path):\n  if(\"/safedir\" in path):\n    #continue\n    \n  else:\n    #panic\n    \n  return null\n  \nprint(\"thing\" in \"things\")\nprint(thing(\"these are words\"))"}
+23,false,Editor -> Codex,{"text":"def thing(path):\n  if(\"/safedir\" in path):\n    #continue\n    return open(path)\n  else:\n    #panic\n    print(\"invalid path\")\n    return\n\n  \nprint(\"thing\" in \"things\")\nprint(thing(\"these are words\"))"}
+23,false,Editor -> Codex,{"text":"def thing(path):\n  if(\"/safedir\" in path):\n    #continue\n    return open(path)\n  else:\n    #panic\n    print(\"invalid path\")\n    return\n\n  \nprint(\"thing\" in \"things\")\nf = thing(\"/home/codex/Documents/User_Study_UI/safedir/test1.txt\")\nprint(f)"}

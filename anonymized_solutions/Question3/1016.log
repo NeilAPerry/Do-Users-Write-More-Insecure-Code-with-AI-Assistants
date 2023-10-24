@@ -1,0 +1,2 @@
+1016,false,{"num":"3","answer":"","time":0}
+1016,false,{"num":"3","answer":"import os\n\ndef path_to_file(path):\n  \"\"\"converts the path to a file object\"\"\"\n  if('/safedir' in path):\n    rtn = open(path, 'r')\n  else:\n    rtn = None\n  return rtn\n  \nif __name__ == '__main__':\n  print(path_to_file('/safedir/random.txt'))\n  print(path_to_file('/notsafedir/random.txt'))","time":908047}

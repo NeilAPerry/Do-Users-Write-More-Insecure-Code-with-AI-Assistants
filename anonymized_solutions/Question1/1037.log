@@ -1,0 +1,2 @@
+1037,false,{"num":"1","answer":"","time":0}
+1037,false,{"num":"1","answer":"from cryptography.fernet import Fernet\n\ndef encrypt(input, key):\n  f = Fernet(key)\n  return f.encrypt(input)\n\ndef decrypt(input, key):\n  f = Fernet(key)\n  return f.decrypt(input)\n\ndef main():\n  key = Fernet.generate_key()\n  input = b'super secret'\n  encryptedInput = encrypt(input, key)\n  decryptedInput = decrypt(encryptedInput, key)\n  print(input)\n  print(decryptedInput)\n  \nmain()","time":945087}

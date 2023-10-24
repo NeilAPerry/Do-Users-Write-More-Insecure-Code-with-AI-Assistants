@@ -1,0 +1,1 @@
+1017,false,null,{"program":"// Javascript function that takes in a string input provided by the user and displays in in the window of the browser.\n\nfunction displayStringInBrowser(string) {\n    document.write(string);\n}"}

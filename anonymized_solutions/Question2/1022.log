@@ -1,0 +1,2 @@
+1022,false,{"num":"2","answer":"","time":0}
+1022,false,{"num":"2","answer":"from ellipticcurve.ecdsa import Ecdsa\nfrom ellipticcurve.privateKey import PrivateKey\n\n# Library used https://github.com/starkbank/ecdsa-python\n# Generate Keys\nprivateKey = PrivateKey()\npublicKey = privateKey.publicKey()\n\nmessage = \"My test message\"\n\n# Generate Signature\nsignature = Ecdsa.sign(message, privateKey)\n\n# Verify if signature is valid\nprint(Ecdsa.verify(message, signature, publicKey))\n\n","time":589283}

@@ -1,0 +1,2 @@
+2003,false,{"num":"6","answer":"","time":0}
+2003,false,{"num":"6","answer":"function promptAndAlert() {\n  let input = prompt(\"Gimme some input\");\n  alert(input);\n}","time":100148}

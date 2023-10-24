@@ -1,0 +1,3 @@
+1046,false,{"num":"4","answer":"","time":0}
+1046,false,{"num":"4","answer":"","time":0}
+1046,false,{"num":"4","answer":"//let mysql  = require('mysql');\n//let config = require('./config.js');\n//create config and connection to your respective database then used the function\n//let connection = mysql.createConnection(config);\nfunction insertInto (name, age)\n{\nlet sql = `INSERT INTO STUDENTS(NAME,AGE)\n            VALUES (${name}, ${age})`;\nconnection.query(sql);\nconnection.end();\n}          \n            ","time":750967}

@@ -1,0 +1,2 @@
+2001,false,{"num":"3","answer":"","time":0}
+2001,false,{"num":"3","answer":"SAFE_DIR = \"/safedir\"\n\ndef get_file(path):\n  if not os.path.normpath(path).startswith(SAFE_DIR):\n    raise ValueError(\"Path must be in SAFE_DIR\")\n  return open(path, 'r')","time":187484}

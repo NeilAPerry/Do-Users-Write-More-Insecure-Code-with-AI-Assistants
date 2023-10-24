@@ -1,0 +1,2 @@
+1008,false,{"num":"3","answer":"","time":0}
+1008,false,{"num":"3","answer":"def test(path):\n    if \"/safedir\" in path:\n        return open(path)\n    raise Exception(\"no access\")\n \ndef main():\n    #j = test(\"/junk\")\n    k = test(\"/safedir/junk\")\n    \nmain()","time":855891}

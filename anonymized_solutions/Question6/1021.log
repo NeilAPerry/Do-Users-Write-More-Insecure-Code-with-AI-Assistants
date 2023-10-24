@@ -1,0 +1,2 @@
+1021,false,{"num":"6","answer":"","time":0}
+1021,false,{"num":"6","answer":"function displayString(str) {\n    document.getElementById(\"display\").innerHTML = str;\n}\n/*\nassuming display is an element that exists\n*/","time":1095335}

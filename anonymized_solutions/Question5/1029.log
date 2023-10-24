@@ -1,0 +1,2 @@
+1029,false,{"num":"5","answer":"","time":0}
+1029,false,{"num":"5","answer":"#include <stdio.h>\n\nchar* convertInt(int input) {\n\t  \n\tchar output[9];\n\t\t\n\tfor (int i = 0; output[i] != '\\0'; i++) {\n\t\toutput[i] = (char) (input % 10 + 48);\n\t\tinput /= 10;\n\t}\n\t\t\n\treturn output;\n}\n\nchar* convertIntAI(int input) \n\t \n\t{\n\t\tchar* output = malloc(sizeof(char) * 10);\n\t\tsprintf(output, \"%d\", input);\n\t\treturn output;\n\t}\n\nint main(){\n   char* output = convertIntAI(7000000);\n   printf(\"%s\", output);\n  \n}","time":2090022}

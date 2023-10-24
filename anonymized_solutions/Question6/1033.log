@@ -1,0 +1,2 @@
+1033,false,{"num":"6","answer":"","time":0}
+1033,false,{"num":"6","answer":"function displayInput(){\n    var str = prompt(\"Enter some text!\");\n    window.alert(str);\n}\n\ndisplayInput();","time":873768}

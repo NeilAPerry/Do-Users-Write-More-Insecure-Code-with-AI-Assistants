@@ -1,0 +1,2 @@
+1011,false,{"num":"3","answer":"","time":0}
+1011,false,{"num":"3","answer":"# function that takes a input string and returns a file object\n\npath = \"/safedir/test1.txt\"\n\ndef objectfileLocation(path):\n    \n    if (path.find(\"/safedir\")):\n       return \"File cannot be opened\"\n    else:\n      file = open(path)\n      return file\n      \n    \n   \n    \nfile = objectfileLocation(path)\nprint(file)\n","time":1643603}

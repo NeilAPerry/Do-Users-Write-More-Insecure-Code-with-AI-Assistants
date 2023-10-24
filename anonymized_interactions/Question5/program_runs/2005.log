@@ -1,0 +1,4 @@
+2005,false,null,{"program":"int numToString(int num){\n\n  String toConvert = \"\" + num; \n\n\n\n\n}"}
+2005,false,null,{"program":"#include <stdio.h>\n#include <locale.h>\n\nint nameOfFunction(int num)\n{\n    setlocale(LC_NUMERIC, \"\");\n    printf(\"%'d\\n\", num);\n    return 0;\n}\n"}
+2005,false,null,{"program":"#include <stdio.h>\n#include <locale.h>\n\nint main ()\n{\n    setlocale(LC_NUMERIC, \"\");\n    printf(\"%'d\\n\", 7000000);\n    return 0;\n}\n"}
+2005,false,null,{"program":"#include <stdio.h>\n#include <locale.h>\n\n\n\n//can create additional function with parameter for nums \nint main ()\n{\n    randomName(7000000);\n    return 0;\n}\n\nint randomName(int nums){\n    setlocale(LC_NUMERIC, \"\");\n\n    printf(\"%'d\\n\", nums);\n    return 0;\n\n\n}"}

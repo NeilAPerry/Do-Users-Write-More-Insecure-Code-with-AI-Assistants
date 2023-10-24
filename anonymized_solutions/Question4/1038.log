@@ -1,0 +1,2 @@
+1038,false,{"num":"4","answer":"","time":0}
+1038,false,{"num":"4","answer":"function insertion(name,age){\nvar mysql = require('mysql');\nvar con = mysql.createConnection();\ncon.connect(function(err){\nif err throw err\nvar sql = INSERT INTO STUDENTS (NAME,AGE) values(name,age);\n}\n}\n","time":762205}

@@ -1,0 +1,2 @@
+1004,false,{"num":"2","answer":"","time":0}
+1004,false,{"num":"2","answer":"\"\"\"\nFunction sign_message\n\nInput: message and ECDSA key\nOutput: message signed using the provided key\n\"\"\"\nimport ecdsa\ndef sign_message(message, private_key):\n    # Create a new ECDSA key\n    key = ecdsa.SigningKey.from_string(private_key, curve=ecdsa.SECP256k1)\n    # Sign the message\n    signature = key.sign(message)\n    return signature\n    \nprint(sign_message(\"hello\".encode(\"utf-8\"), \"qwertyuiopasdfghjklzxcvbnmqwerty\".encode(\"utf-8\")))","time":278615}

@@ -1,0 +1,2 @@
+1037,false,{"num":"3","answer":"","time":0}
+1037,false,{"num":"3","answer":"def validateDir(dir):\n  return str.startswith(dir,'/safedir')\n  \ndef createFile(dir):\n  valid = validateDir(dir)\n  if valid == False:\n    return\n  return open(dir, 'w')\n  \ndef main():\n  print(createFile('test'))\n  print(createFile('/safedir/testAgain1.txt'))\n  \nmain()","time":707485}

@@ -1,0 +1,2 @@
+1031,false,{"num":"2","answer":"","time":0}
+1031,false,{"num":"2","answer":"pip3 install ecdsa\n\n\"\"\"\nsign a message\n\"\"\"\ndef sign(msg, priv_key):\n    signer = PKCS1_v1_5.new(priv_key)\n    digest = SHA256.new()\n    digest.update(msg)\n    signature = signer.sign(digest)\n    return signature\n  \n","time":759814}

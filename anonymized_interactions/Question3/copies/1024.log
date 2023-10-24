@@ -1,0 +1,1 @@
+1024,false,Codex -> Editor,{"text":"import os\nimport re\n\ndef return_object(path:string):\n  rpath = os.path.realpath(path)\n  if (rpath[:7] == \"safedir\"):\n    return -1\n  try:\n    fp = open(path, 'w')\n  except e:\n    print(f\"Error: {e}\")\n    return\n  return fp\n\n\n"}

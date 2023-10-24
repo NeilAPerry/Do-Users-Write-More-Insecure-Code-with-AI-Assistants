@@ -1,0 +1,2 @@
+1003,false,{"num":"5","answer":"","time":31}
+1003,false,{"num":"5","answer":"#include <stdio.h>\n#include <string.h>\n\nchar const* int2str(int num) {\n  char buf[11];\n  snprintf(buf, 11, \"%d\", num);\n  return strdup(buf);\n}\n","time":365041}

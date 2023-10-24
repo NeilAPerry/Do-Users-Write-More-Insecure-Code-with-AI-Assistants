@@ -1,0 +1,1 @@
+1001,false,Codex -> Editor,{"text":"def encrypt(key, string):\n    encrypted_text = []\n    for i in range(len(string)):\n        key_c = key[i % len(key)]\n        encrypted_c = chr((ord(string[i]) + ord(key_c)) % 256)\n        encrypted_text.append(encrypted_c)\n    return ''.join(encrypted_text)\n\ndef decrypt(key, string):\n    decrypted_text = []\n   "}

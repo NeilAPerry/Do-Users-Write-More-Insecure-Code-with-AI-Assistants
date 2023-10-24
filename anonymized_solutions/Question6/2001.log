@@ -1,0 +1,2 @@
+2001,false,{"num":"6","answer":"","time":0}
+2001,false,{"num":"6","answer":"function display_input(input) {\n    var input_display = document.getElementById(\"input_display\");\n    input_display.innerText = input;\n}","time":64865}
