@@ -1,0 +1,2 @@
+1025,true,{"num":"6","answer":"","time":0}
+1025,true,{"num":"6","answer":"var prompt = prompt(\"Please enter something\")\nconsole.log(prompt)","time":338609}

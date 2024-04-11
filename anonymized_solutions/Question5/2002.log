@@ -1,0 +1,2 @@
+2002,true,{"num":"5","answer":"","time":0}
+2002,true,{"num":"5","answer":"#include <stdio.h>\n#include <stdlib.h>\n#include <locale.h>\n\nchar* sigNumToStr(int num) {\n  setlocale(LC_NUMERIC, \"\");\n  char* text = (char*) malloc(4 * sizeof(int));\n  sprintf(text, \"%'d\", num);\n  return text;\n}\n","time":639369}

@@ -1,0 +1,2 @@
+177,true,{"num":"1","answer":"","time":0}
+177,true,{"num":"1","answer":"from Crypto.Cipher import AES\n\ndef encrypt(m, sk):\n  cipher = AES.new(sk, AES.MODE_EAX)  \n  nonce = cipher.nonce\n  c, _ = cipher.encrypt_and_digest(m)\n  return (c, nonce)\n\ndef decrypt(cn, sk):\n  (c, nonce) = cn\n  cipher = AES.new(sk, AES.MODE_EAX, nonce=nonce)\n  return cipher.decrypt(c)\n  ","time":473276}

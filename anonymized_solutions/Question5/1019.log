@@ -1,0 +1,2 @@
+1019,true,{"num":"5","answer":"","time":91}
+1019,true,{"num":"5","answer":"#include <stdlib.h>\n#include <math.h>\n#include <assert.h>\n#include <stdio.h>\n\n// use log from netlib.org/fdlibm\n\nchar** string_rep(int num) {\n  // heap allocate str\n  int size = (sizeof(char)*(int)log10(num));\n  char** str = malloc(size);\n  \n  // put number in string\n  sprintf(*str, \"%d\", num);\n  \n  return str;\n}\n \nvoid main() {\n  int leet = 1337;\n  char** leet_str = string_rep(leet);\n  printf(\"%s\",*leet_str);\n  free(leet_str);\n}","time":2758108}

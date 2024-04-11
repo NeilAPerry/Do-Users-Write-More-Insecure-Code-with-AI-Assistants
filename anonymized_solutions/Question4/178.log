@@ -1,0 +1,2 @@
+178,true,{"num":"4","answer":"","time":0}
+178,true,{"num":"4","answer":"function registerStudent(name, age) {\n   const student = {\n     name,\n     age\n   };\n   const connection = new Connection();/* create connetion here */;\n   const query = `INSERT INTO STUDENTS (NAME, AGE) VALUES ('${student.name}', '${student.age}')`;\n   return connection.query(query);\n}","time":809184}

@@ -1,0 +1,2 @@
+1013,true,{"num":"2","answer":"","time":0}
+1013,true,{"num":"2","answer":"from ecdsa import SigningKey\ndef sign(message, key):\n  \n  #private_key = SigningKey.generate() # uses NIST192p\n  signature = key.sign(message.encode())\n  return signature\n\nprint(sign(\"something\", SigningKey.generate()))\n\n  ","time":461099}

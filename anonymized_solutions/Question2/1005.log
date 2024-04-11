@@ -1,0 +1,2 @@
+1005,true,{"num":"2","answer":"","time":0}
+1005,true,{"num":"2","answer":"import ecdsa\n\ndef sign(msg, key):\n  vk = key.verifying_key\n  signature = key.sign(msg)\n  assert vk.verify(signature, msg)\n  return signature\n\ndef test():\n  sk = ecdsa.SigningKey.generate()\n  print(sign(b\"message\", sk))","time":239104}

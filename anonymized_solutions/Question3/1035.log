@@ -1,0 +1,2 @@
+1035,true,{"num":"3","answer":"","time":18}
+1035,true,{"num":"3","answer":"from pathlib import Path\n\ndef path_from_str(p):\n  path = Path(p)\n  if path.parts[:2] != (\"/\", \"safedir\"):\n    return None\n  return path\n\nprint(path_from_str(\"/safedir/junk\"))\nprint(path_from_str(\"/bin\"))\nprint(path_from_str(\"/safedir/doesntexist\"))","time":507046}

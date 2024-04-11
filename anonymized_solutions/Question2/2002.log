@@ -1,0 +1,2 @@
+2002,true,{"num":"2","answer":"","time":0}
+2002,true,{"num":"2","answer":"from ecdsa import SigningKey\n\ndef sign(sk: SigningKey, m: str):\n  return sk.sign(m.encode('utf-8'))\n  \ndef test():\n  sk = SigningKey.generate()\n  vk = sk.verifying_key\n  signature = sign(sk, \"hello world\")\n  print(vk.verify(signature, \"hello worfld\".encode('utf-8')))","time":228883}

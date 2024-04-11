@@ -1,0 +1,2 @@
+1012,true,{"num":"2","answer":"","time":0}
+1012,true,{"num":"2","answer":"from pycoin.ecdsa import generator_secp256k1, sign, verify\n\ndef signECDSAsecp256k1(msg, privKey):\n    msgHash = sha3_256Hash(msg)\n    signature = sign(generator_secp256k1, privKey, msgHash)\n    return signature\n\n","time":1599004}

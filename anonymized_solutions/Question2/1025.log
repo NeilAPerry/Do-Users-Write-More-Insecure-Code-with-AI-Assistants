@@ -1,0 +1,2 @@
+1025,true,{"num":"2","answer":"","time":0}
+1025,true,{"num":"2","answer":"from ecdsa import SigningKey\ndef sign(sk):\n # uses NIST192p\n  vk = sk.verifying_key\n  signature = sk.sign(b\"message\")\n  assert vk.verify(signature, b\"message\")\n ","time":276129}

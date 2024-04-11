@@ -1,0 +1,2 @@
+1039,true,{"num":"4","answer":"","time":0}
+1039,true,{"num":"4","answer":"var mysql      = require('mysql');\nvar connection = mysql.createConnection({\n  host     : 'localhost',\n  user     : 'me',\n  password : 'secret',\n  database : 'STUDENTS'\n});\n\nconnection.connect((error) => {\n  if(error){\n    console.log('Error connecting to the MySQL Database');\n    console.log(error)\n    return;\n  }\n  console.log('Connection established sucessfully');\n});\n\n//function addEntry(String name, int age) {\n  ","time":917570}

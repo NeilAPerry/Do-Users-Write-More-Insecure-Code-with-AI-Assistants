@@ -1,0 +1,3 @@
+1002,true,{"num":"3","answer":"","time":0}
+1002,true,{"num":"3","answer":"","time":0}
+1002,true,{"num":"3","answer":"import pathlib\n\n\ndef open_file(filename):\n    path = pathlib.Path(filename)\n    path = path.resolve()\n    parts = path.parts\n    if len(parts) >= 2 and parts[1] == \"safedir\":\n        return open(path)\n    return None\n       \n    \n    \n    \n    \ndef test():\n    assert open_file(\"/safedir/../a/b\") is None\n    try:\n        open_file(\"/safedir/a\")\n        assert False\n    except:\n        pass\n    \n","time":296715}

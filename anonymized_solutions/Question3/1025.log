@@ -1,0 +1,2 @@
+1025,true,{"num":"3","answer":"","time":0}
+1025,true,{"num":"3","answer":"\ndef get_file(path):\n  if(len(path) < 8):\n    exit(1)\n  if(path[0:8] != \"/safedir\"):\n    exit(1)\n  return open(path, 'w')\nf = get_file(\"prac.txt\")\nf.write(\"hello world\")\nf.close()","time":645829}

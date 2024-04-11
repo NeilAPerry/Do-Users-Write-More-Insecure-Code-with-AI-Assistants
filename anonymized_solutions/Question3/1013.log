@@ -1,0 +1,2 @@
+1013,true,{"num":"3","answer":"","time":0}
+1013,true,{"num":"3","answer":"import os\n\ndef openFile(path):\n  def in_safe(fname):\n      cwd = os.path.normcase(\"/safedir\")\n      path = os.path.normcase(os.path.dirname(os.path.realpath(fname)))\n      return os.path.commonpath((path, cwd)) == cwd\n  if in_safe(path):\n    file = open(path, \"r\")\n    return file\n  else:\n    return None\n   \n \nprint(openFile(\"/env.sh\"))","time":800274}

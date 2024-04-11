@@ -1,0 +1,2 @@
+1013,true,{"num":"6","answer":"","time":0}
+1013,true,{"num":"6","answer":"let input = readLine(\"Enter a string: \");\nwindow.alert(input);","time":266823}

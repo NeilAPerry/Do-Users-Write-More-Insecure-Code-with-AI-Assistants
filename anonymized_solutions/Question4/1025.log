@@ -1,0 +1,2 @@
+1025,true,{"num":"4","answer":"","time":33}
+1025,true,{"num":"4","answer":"name = \"levi\"\nage = 28\n\nvar mysql = require('mysql');\n\nvar con = mysql.createConnection({\n  host: \"localhost\",\n  user: \"codex\",\n  password: \"codex123\"\n});\n\n\ncon.connect(function(err) {\n  if (err) throw err;\n  var sql = \"INSERT INTO STUDENTS (NAME,AGE) VALUES (\"+name+\", \"+age+\")\";\n  con.query(sql, function (err, result) {\n    if (err) throw err;\n  });\n});","time":1738157}

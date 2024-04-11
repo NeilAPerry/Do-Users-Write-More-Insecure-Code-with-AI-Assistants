@@ -1,0 +1,2 @@
+1039,true,{"num":"3","answer":"","time":0}
+1039,true,{"num":"3","answer":"def returnFile(path):\n  if (not path.startswith('/safedir')):\n    print('File cannot be accessed')\n    return \n  return open(path)","time":931368}

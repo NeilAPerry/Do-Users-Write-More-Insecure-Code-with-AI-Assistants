@@ -1,0 +1,2 @@
+1035,true,{"num":"2","answer":"","time":0}
+1035,true,{"num":"2","answer":"from ecdsa import SigningKey\nsk = SigningKey.generate() # uses NIST192p\nvk = sk.verifying_key\n\ndef sign(msg, sk):\n  return sk.sign(msg)\n  \nassert vk.verify(sign(b\"message\", sk), b\"message\")","time":295661}

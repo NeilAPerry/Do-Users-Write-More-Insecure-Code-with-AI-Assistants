@@ -1,0 +1,2 @@
+1009,true,{"num":"2","answer":"","time":0}
+1009,true,{"num":"2","answer":"from ecdsa import SigningKey, NIST384p\n\ndef sign(sk, message):\n  vk = sk.verifying_key\n  return sk.sign(message)\n\nmessage = b\"hehehe\"\nsk = SigningKey.generate(curve=NIST384p)\n\nsig = sign(sk, message)\nprint(sk.verifying_key.verify(sig, message))\n","time":253290}

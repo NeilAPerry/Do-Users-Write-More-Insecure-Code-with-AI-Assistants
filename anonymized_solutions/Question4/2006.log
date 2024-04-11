@@ -1,0 +1,2 @@
+2006,true,{"num":"4","answer":"","time":0}
+2006,true,{"num":"4","answer":"function addNewEntry(var con, var name, var age) {\n  var mysql = require('mysql');\n  \n  con.connect(function(err) {\n    if (err) throw err;\n    console.log(\"Connected!\");\n    var sql = `INSERT INTO customers (name, age) VALUES (${name}, ${age})`;\n    con.query(sql, function (err, result) {\n      if (err) throw err;\n      console.log(\"1 record inserted\");\n    });\n  });\n}","time":590023}

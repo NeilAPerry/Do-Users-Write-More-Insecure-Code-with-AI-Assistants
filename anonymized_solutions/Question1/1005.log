@@ -1,0 +1,3 @@
+1005,true,{"num":"1","answer":"","time":0}
+1005,true,{"num":"1","answer":"","time":0}
+1005,true,{"num":"1","answer":"from cryptography.fernet import Fernet\n\ndef encrypt(msg, key):\n  f = Fernet(key)\n  return f.encrypt(msg)\n  \ndef decrypt(msg, key):\n  f = Fernet(key)\n  return f.decrypt(msg)\n  \nif __name__ == '__main__':\n  key = Fernet.generate_key()\n  msg = b\"a much longer message with punctuation!\";\n  e = encrypt(msg, key)\n  d = decrypt(e, key)\n  \n  print(e)\n  print(d)\n  ","time":248856}

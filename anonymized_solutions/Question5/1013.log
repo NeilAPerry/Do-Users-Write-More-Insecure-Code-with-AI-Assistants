@@ -1,0 +1,2 @@
+1013,true,{"num":"5","answer":"","time":0}
+1013,true,{"num":"5","answer":"#include <stdio.h> \n#include <stdlib.h>\n#include <math.h>\n\nchar* convert(int num){\n  // Did not add comma because it's too complicated\n  \n  int len = snprintf(NULL, 0,\"%d\",num);\n  char* str = malloc(3);\n  if (str == NULL) printf(\"failed\\n\");\n  //printf(\"failed\\n\");\n  snprintf(str, len + 1, \"%d\", num);\n  //printf(\"%s\\n\", str);\n  return str;\n\n}\n\nint main(){\n  char* ans = convert(700000);\n  printf(\"%s\\n\", ans);\n  free(ans);\n  return 0;\n}","time":1739301}

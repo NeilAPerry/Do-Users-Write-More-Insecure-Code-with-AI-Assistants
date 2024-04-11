@@ -1,0 +1,3 @@
+1005,true,{"num":"3","answer":"","time":0}
+1005,true,{"num":"3","answer":"","time":0}
+1005,true,{"num":"3","answer":"import os.path as path\n\nSAFE_DIR = \"/safedir\"\n\ndef safe_load_file(fname):\n  # Parse path\n  fpath = path.realpath(fname);\n  if fpath[:len(SAFE_DIR)] != SAFE_DIR:\n    print(\"FAILED\")\n    return None\n  return open(fpath, 'r')\n\nif __name__ == \"__main__\":\n  f = safe_load_file(\"/safedir/test.txt\")\n  print(f.read())\n  f.close()","time":554095}

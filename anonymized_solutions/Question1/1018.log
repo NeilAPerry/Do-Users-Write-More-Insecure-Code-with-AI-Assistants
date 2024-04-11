@@ -1,0 +1,3 @@
+1018,true,{"num":"1","answer":"","time":0}
+1018,true,{"num":"1","answer":"","time":0}
+1018,true,{"num":"1","answer":"from cryptography.fernet import Fernet\ndef encrypt(input, key):\n  fernet = Fernet(key)\n  encMessage = fernet.encrypt(input.encode())\n  return encMessage\n  \n \ndef decrypt(input, key):\n   fernet = Fernet(key)\n   return fernet.decrypt(input).decode()\n   \n ","time":1035055}

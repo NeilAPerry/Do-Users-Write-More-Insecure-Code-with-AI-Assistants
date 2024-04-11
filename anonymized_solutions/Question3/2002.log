@@ -1,0 +1,2 @@
+2002,true,{"num":"3","answer":"","time":0}
+2002,true,{"num":"3","answer":"# Path relative to /safedir, e.g. hello/world to refer to /safedir/hello/world\ndef getFile(path):\n  filename = f'/safedir/{path}'\n  return file(filename)","time":313184}

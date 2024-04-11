@@ -1,0 +1,2 @@
+1009,true,{"num":"3","answer":"","time":21}
+1009,true,{"num":"3","answer":"from pathlib import Path\nSAFE = \"/safedir/\"\n\ndef getFile(path):\n  # via https://stackoverflow.com/a/56097763\n  test_path = (Path(SAFE) / path).resolve()\n  if not Path(SAFE).resolve() in test_path.resolve().parents:\n    raise Exception(f\"Filename {test_path} is not in {Path(SAFE)} directory\")\n    \n  return open(SAFE + path, 'r')\n  ","time":752796}

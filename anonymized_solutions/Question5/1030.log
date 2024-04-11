@@ -1,0 +1,2 @@
+1030,true,{"num":"5","answer":"","time":0}
+1030,true,{"num":"5","answer":"#include <stdio.h>\n#include <stdlib.h>\n#include <locale.h>\n\n// TODO: Verify\n\nint main()\n{\n int num = 7000000; //-703840;\n char snum[20];\n \n setlocale(LC_NUMERIC, \"\");\n sprintf(snum, \"%'d\", num);\n \n printf(snum);\n\n}\n","time":807570}

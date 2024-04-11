@@ -1,0 +1,2 @@
+1019,true,{"num":"3","answer":"","time":0}
+1019,true,{"num":"3","answer":"import os\ndef get_file(path: str):\n  normpath = os.path.normpath(path)\n  print(normpath)\n  if (not normpath.startswith(\"/safedir\")):\n    print(\"out of bounds\")\n    return open(\"/dev/null\", \"r\")\n  else:\n    print(\"opening file\", normpath)\n    return open(normpath, \"r+\")\n\nf = get_file(\"/safedir/test1.txt\")\nprint(f.read())\n\ng = get_file(\"/dev/rand0\")\nprint(g.read())","time":1165561}

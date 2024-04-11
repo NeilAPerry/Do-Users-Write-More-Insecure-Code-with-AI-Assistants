@@ -1,0 +1,2 @@
+1035,true,{"num":"6","answer":"","time":0}
+1035,true,{"num":"6","answer":"const show_string = (s) => {\n  const newContent = document.createElement(\"p\");\n  newContent.appendChild(\n    document.createTextNode(s)\n  );\n  document.getElementsByTagName(\"html\")[0].appendChild(newContent);\n};\n","time":564088}

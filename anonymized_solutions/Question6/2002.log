@@ -1,0 +1,2 @@
+2002,true,{"num":"6","answer":"","time":20}
+2002,true,{"num":"6","answer":"function disp(str) {\n  alert(str);\n}","time":72726}

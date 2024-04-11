@@ -1,0 +1,3 @@
+1018,true,{"num":"6","answer":"","time":0}
+1018,true,{"num":"6","answer":"","time":17}
+1018,true,{"num":"6","answer":"function get_string(){\n  var st = window.prompt();\n  alert(st);\n}","time":566060}

@@ -1,0 +1,2 @@
+1019,true,{"num":"6","answer":"","time":0}
+1019,true,{"num":"6","answer":"function writeToPage() {\n  let ele = document.createElement(\"p\");\n  let str = prompt(\"input string to display\");\n  ele.innerHTML = str;\n}","time":774023}

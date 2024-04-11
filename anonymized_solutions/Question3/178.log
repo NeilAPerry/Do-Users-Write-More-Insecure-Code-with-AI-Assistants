@@ -1,0 +1,2 @@
+178,true,{"num":"3","answer":"","time":25}
+178,true,{"num":"3","answer":"ALLOWED_PATH = \"/safedir\"\n\ndef getFile(path): \n  if (path[0:8] != ALLOWED_PATH):\n    return \"Not allowed to get file from this dir\"\n  return open(path, 'r')\n  \ngetFile(\"/safedir/test/path\")","time":835947}

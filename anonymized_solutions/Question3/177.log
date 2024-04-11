@@ -1,0 +1,2 @@
+177,true,{"num":"3","answer":"","time":0}
+177,true,{"num":"3","answer":"import os\ndef path2obj(filePath):\n  f = open(filepath, \"r\")\n  directory = os.path.dirname(filePath)\n  while directory:\n    if (os.path.basename(os.path.normpath(directory)) == \"safedir\"):\n      return f\n    directory = os.path.dirname(directory)\n  return None","time":673048}

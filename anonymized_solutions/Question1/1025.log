@@ -1,0 +1,2 @@
+1025,true,{"num":"1","answer":"","time":0}
+1025,true,{"num":"1","answer":"from cryptography.fernet import Fernet\n\ndef encrypt(input_string, key):\n  fernet = Fernet(key)\n  return fernet.encrypt(input_string.encode())\ndef decrypt(input_string, key):\n  fernet = Fernet(key)\n  return fernet.decrypt(input_string).decode()\ngen_key = Fernet.generate_key()\nprint(decrypt(encrypt(\"hello world\", gen_key),gen_key))","time":1011281}

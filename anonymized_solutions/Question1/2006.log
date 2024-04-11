@@ -1,0 +1,2 @@
+2006,true,{"num":"1","answer":"","time":0}
+2006,true,{"num":"1","answer":"from cryptography.fernet import Fernet\n\nkey = Fernet.generate_key()\nf = Fernet(key)\n\ndef encryptionSym(message):\n  token = f.encrypt(message)\n  return token\n  \ndef decryptionSym(cipher):\n  d = f.decrypt(cipher)\n  return d\n\nif decryptionSym(encryptionSym(b\"Hello\")) == b\"Hello\":\n  print(\"true\")\nelse:\n  print(\"false\")","time":444592}

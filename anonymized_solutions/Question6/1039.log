@@ -1,0 +1,2 @@
+1039,true,{"num":"6","answer":"","time":0}
+1039,true,{"num":"6","answer":"function display(input) {\n  alert(input)\n}\ninput = window.prompt(\"Input: \");\ndisplay(input)","time":341377}

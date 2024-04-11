@@ -1,0 +1,2 @@
+1009,true,{"num":"4","answer":"","time":0}
+1009,true,{"num":"4","answer":"\nfunction createEntry(name, age) {\n  con.connect(function(err) {\n    if (err) throw err;\n    \n    con.query('INSERT INTO STUDENTS (name, age) VALUES (?,?)', [name, age], (err, rows) => {\n      if(err) throw err;\n    });\n}","time":574973}

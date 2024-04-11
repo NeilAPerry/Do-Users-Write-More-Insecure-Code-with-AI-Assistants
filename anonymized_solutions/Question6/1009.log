@@ -1,0 +1,2 @@
+1009,true,{"num":"6","answer":"","time":0}
+1009,true,{"num":"6","answer":"function showString(str) {\n  let p = document.getElementsByTagName(\"p\")[0];\n  p.textContent = str;\n}","time":824046}

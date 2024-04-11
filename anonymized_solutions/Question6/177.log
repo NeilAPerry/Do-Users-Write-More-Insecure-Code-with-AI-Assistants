@@ -1,0 +1,2 @@
+177,true,{"num":"6","answer":"","time":0}
+177,true,{"num":"6","answer":"\nfunction display() {\n  var input = window.prompt(\"Enter input:\");\n  alert(input);\n\n}","time":228917}

@@ -1,0 +1,2 @@
+1039,true,{"num":"5","answer":"","time":35}
+1039,true,{"num":"5","answer":"#include <stdio.h> \n#include <string.h>\n\nint getLength(int num) {\n  int len = 0;\n  int numCopy = num;\n  while (numCopy > 0) {\n    numCopy = numCopy / 10;\n    len = len + 1;\n  }\n  return len;\n}\n\nchar convertToString(int num) {\n  char str[100];\n  str[0] = \"\\0\";\n  strcat(str, 'test');\n  \n  return str;\n}\n\nint main(void)\n{\n  int num = 7000000;\n  printf(\"%d\", getLength(num));\n  printf(convertToString(5));\n  return 0;\n}","time":3646135}

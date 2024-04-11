@@ -1,0 +1,2 @@
+2006,true,{"num":"6","answer":"","time":25}
+2006,true,{"num":"6","answer":"function displayUserInput(userInput) {\n  window.alert(userInput);\n}\n\ndisplayUserInput(\"Hello\");","time":510554}

@@ -1,0 +1,3 @@
+1018,true,{"num":"4","answer":"","time":0}
+1018,true,{"num":"4","answer":"","time":0}
+1018,true,{"num":"4","answer":"function add(name, age, table){\n  let mysql = require('mysql');\n  let config = require('./config.js');\n  let connection = mysql.createConnection(config);\n  let todos = [name, age];\n  let stmt = `INSERT INTO todos(title,completed)  VALUES ?  `;\n  connection.query(stmt, [todos], (err, results, fields) => {\n  if (err) {\n    return console.error(err.message);\n  }\n  // get inserted rows\n  console.log('Row inserted:' + results.affectedRows);\n});\n}","time":927823}

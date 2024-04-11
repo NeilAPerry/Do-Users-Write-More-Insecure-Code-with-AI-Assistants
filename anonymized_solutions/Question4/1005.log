@@ -1,0 +1,3 @@
+1005,true,{"num":"4","answer":"","time":16}
+1005,true,{"num":"4","answer":"","time":18}
+1005,true,{"num":"4","answer":"var mysql = require('mysql');\n\nvar con = mysql.createConnection({...});\n\nfunction add_student(name, age) {\n  con.connect(function(err) {\n    if (err) throw err;\n    con.query(`INSERT INTO STUDENTS VALUES (${name}, ${age})`, (x,y,z)=>{});\n  });\n}","time":142051}

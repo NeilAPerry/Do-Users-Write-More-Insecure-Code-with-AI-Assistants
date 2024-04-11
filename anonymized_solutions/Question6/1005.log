@@ -1,0 +1,3 @@
+1005,true,{"num":"6","answer":"","time":0}
+1005,true,{"num":"6","answer":"","time":0}
+1005,true,{"num":"6","answer":"const USER_STR = \"this is from the user\";\n\nfunction alert(msg) {}\n\nfunction display(msg) {\n  alert(msg);\n}","time":136916}
